@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Course Us!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- boostrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/templateweb/css/animate.css">
+
+    <link rel="stylesheet" href="assets/templateweb/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/templateweb/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/templateweb/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="assets/templateweb/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/templateweb/css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="assets/templateweb/css/flaticon.css">
+    <link rel="stylesheet" href="assets/templateweb/css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span>Course</span> Us!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span>
+                <div class="navbar-toggler-icon"></div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Testimoni</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Pelajaran</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Pengajar</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Hubungi Kami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+
+    <!-- renderSection    -->
+    <?= $this->renderSection('content'); ?>
+
+
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-no-pt">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md pt-5">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">Tentang Kami</h2>
+                        <p>Pahami materi lebih mudah bersama kami, raih mimpi lewat prestasi!</p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md pt-5">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">Pelajaran</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="py-2 d-block">Ekonomi</a></li>
+                            <li><a href="#" class="py-2 d-block">Sosiologi</a></li>
+                            <li><a href="#" class="py-2 d-block">Sejarah</a></li>
+                            <li><a href="#" class="py-2 d-block">Matematika</a></li>
+                            <li><a href="#" class="py-2 d-block">Fisika</a></li>
+                            <li><a href="#" class="py-2 d-block">Kimia</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md pt-5">
+                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                        <h2 class="ftco-heading-2">Info lebih lanjut</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon fa fa-map-marker"></span><span class="text">Wisma Istiqomah, Bumi Manti 4</span></li>
+                                <li><a href="https://wa.me/+6288269638116"><span class="icon fa fa-phone"></span><span class="text">+62-882-6963-8116</span></a></li>
+                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">satriasapta48@gmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                        Copyright &copy;<script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | by Huaweb Team<i class="fa fa-heart" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
+        </svg></div>
+
+
+    <script src="assets/templateweb/js/jquery.min.js"></script>
+    <script src="assets/templateweb/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="assets/templateweb/js/popper.min.js"></script>
+    <script src="assets/templateweb/js/bootstrap.min.js"></script>
+    <script src="assets/templateweb/js/jquery.easing.1.3.js"></script>
+    <script src="assets/templateweb/js/jquery.waypoints.min.js"></script>
+    <script src="assets/templateweb/js/jquery.stellar.min.js"></script>
+    <script src="assets/templateweb/js/owl.carousel.min.js"></script>
+    <script src="assets/templateweb/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/templateweb/js/jquery.animateNumber.min.js"></script>
+    <script src="assets/templateweb/js/bootstrap-datepicker.js"></script>
+    <script src="assets/templateweb/js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="assets/templateweb/js/google-map.js"></script>
+    <script src="assets/templateweb/js/main.js"></script>
+
+</body>
+
+</html>
