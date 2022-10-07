@@ -11,6 +11,9 @@ class Home extends BaseController
 
     public function template()
     {
-        return view('templates/template');
+        $data = [
+            'title' => 'Template'
+        ];
+        return view('templates/template',$data);
     }
 }
