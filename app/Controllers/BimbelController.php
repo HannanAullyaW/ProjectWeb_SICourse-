@@ -6,13 +6,18 @@ use App\Controllers\BaseController;
 
 class BimbelController extends BaseController
 {
+
+    public function __construct()
+    {
+    }
     public function index()
     {
         $data = [
             'title' => 'Course Us!'
         ];
-        return view('pages/home',$data);
+        return view('pages/home', $data);
     }
+
     public function register()
     {
         $data = [
@@ -21,4 +26,11 @@ class BimbelController extends BaseController
         return view('pages/register', $data);
     }
 
+    public function hubungikami()
+    {
+        $data = [
+            'title' => 'Hubungi kami',
+        ];
+        return view('pages/hubungikami', $data);
+    }
 }

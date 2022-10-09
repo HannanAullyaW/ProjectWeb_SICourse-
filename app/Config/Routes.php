@@ -36,8 +36,10 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'BimbelController::index');
-$routes->get('/template','Home::template');
-$routes->get('/register','BimbelController::register');
+$routes->get('/home', 'BimbelController::index');
+$routes->get('/template', 'Home::template');
+$routes->get('/register', 'BimbelController::register');
+$routes->get('/hubungikami', 'BimbelController::hubungikami');
 
 /*
  * --------------------------------------------------------------------

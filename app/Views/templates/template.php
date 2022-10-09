@@ -28,9 +28,11 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+
         <div class="container">
-            <a class="navbar-brand" href="/"><span>Course</span> Us!</a>
+            <a class="navbar-brand" href="/home"><span>Course</span> Us!</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span>
                 <div class="navbar-toggler-icon"></div>
@@ -42,12 +44,13 @@
                     <li class="nav-item"><a href="#" class="nav-link">Testimoni</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Pelajaran</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Pengajar</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Hubungi Kami</a></li>
+                    <li class="nav-item"><a href="/hubungikami" class="nav-link">Hubungi Kami</a></li>
                     <li class="nav-item"><a href="#" class="nav-link btn btn-primary">Login</a></li>
                 </ul>
             </div>
-        </div>
+            <!-- </div> -->
     </nav>
+    <!-- </div> -->
     <!-- END nav -->
 
     <!-- renderSection    -->
