@@ -37,7 +37,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'BimbelController::index');
 $routes->get('/template','Home::template');
-$routes->get('/register','BimbelController::register');
+// $routes->get('/register','BimbelController::register');
 
 /*
  * --------------------------------------------------------------------
