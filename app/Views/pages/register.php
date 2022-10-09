@@ -1,7 +1,7 @@
 <?= $this->extend('templates/template'); ?>
 <?= $this->section('content'); ?>
 
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bannerutama.jpg');">
+<div class="hero-wrap js-fullheight" style="background-image: url('assets/templateweb/images/bannerutama.jpg');">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
@@ -36,7 +36,7 @@
 
         </div>
     </div>
-</section>
+</div>
 
 
 <?= $this->endSection(); ?>
