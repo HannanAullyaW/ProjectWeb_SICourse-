@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-md pt-5">
                     <div class="ftco-footer-widget pt-md-5 mb-4">
-                        <h2 class="ftco-heading-2">Info lebih lanjut</h2>
+                        <h2 class="ftco-heading-2"><a href="/hubungikami">Info lanjut</a></h2>
                         <div class="block-23 mb-3">
                             <ul>
                                 <li><span class="icon fa fa-map-marker"></span><span class="text">Wisma Istiqomah, Bumi Manti 4</span></li>

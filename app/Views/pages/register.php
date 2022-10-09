@@ -10,19 +10,19 @@
                     <h3 class="mb-4">Register Now</h3>
                     <form action="#" class="signup-form">
                         <div class="form-group">
-                            <label class="label" for="name">Full Name</label>
+                            <label class="label" for="name">Nama Lengkap</label>
                             <input type="text" class="form-control" name="nama" id="nama">
                         </div>
                         <div class="form-group">
-                            <label class="label" for="email">Email Address</label>
+                            <label class="label" for="email">Alamat Email</label>
                             <input type="text" class="form-control" name="email" id="email">
                         </div>
                         <div class="form-group">
-                            <label class="label" for="password">Password</label>
+                            <label class="label" for="password">Kata Sandi</label>
                             <input type="password" class="form-control" name="password" id="password">
                         </div>
                         <div class="form-group">
-                            <label class="label" for="password">Confirm Password</label>
+                            <label class="label" for="password">Konfirmasi Kata Sandi</label>
                             <input type="password" class="form-control" name="confirmpassword" id="confirmpassword">
                         </div>
                         <div class="form-group d-flex justify-content-end mt-4">
