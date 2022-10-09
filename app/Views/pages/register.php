@@ -5,8 +5,8 @@
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
-            <div class="col-md-5 order-md-last">
-                <div class="login-wrap p-4 pt-md-4 pr-md-5 pl-md-5 mt-5">
+            <div class="col-md-5 mt-5 order-md-last">
+                <div class="login-wrap p-5 p-md-5  mt-5">
                     <h3 class="mb-4">Register Now</h3>
                     <form action="#" class="signup-form">
                         <div class="form-group">
