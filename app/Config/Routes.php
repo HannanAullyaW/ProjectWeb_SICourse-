@@ -42,6 +42,7 @@ $routes->get('/register', 'BimbelController::register');
 $routes->get('/hubungikami', 'BimbelController::hubungikami');
 $routes->get('/masuk', 'BimbelController::masuk');
 $routes->get('/testimoni', 'BimbelController::testimoni');
+$routes->get('/pelajaran', 'BimbelController::pelajaran');
 
 
 /*
