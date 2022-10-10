@@ -41,4 +41,12 @@ class BimbelController extends BaseController
         ];
         return view('pages/masuk', $data);
     }
+
+    public function testimoni()
+    {
+        $data = [
+            'title' => 'Testimoni',
+        ];
+        return view('pages/testimoni', $data);
+    }
 }
