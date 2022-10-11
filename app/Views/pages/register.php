@@ -26,9 +26,9 @@
                             <input type="password" class="form-control" name="confirmpassword" id="confirmpassword">
                         </div>
                         <div class="form-group d-flex justify-content-end mt-4">
-                            <button type="submit" class="btn btn-primary submit"><span class="fa fa-paper-plane"></span></button>
                         </div>
                         <h6 class="text-center">Already have an account? <a href="/masuk">Sign In</a></h6>
+                            <tr>
                     </form>
 
                 </div>
