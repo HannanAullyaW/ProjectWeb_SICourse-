@@ -43,7 +43,7 @@
                     <li class="nav-item active"><a href="/" class="nav-link">Beranda</a></li>
                     <li class="nav-item"><a href="/testimoni" class="nav-link">Testimoni</a></li>
                     <li class="nav-item"><a href="/pelajaran" class="nav-link">Pelajaran</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Pengajar</a></li>
+                    <li class="nav-item"><a href="/pengajar" class="nav-link">Pengajar</a></li>
                     <li class="nav-item"><a href="/hubungikami" class="nav-link">Hubungi Kami</a></li>
                     <li class="nav-item"><a href="/masuk" class="nav-link btn btn-primary">Masuk</a></li>
                 </ul>
