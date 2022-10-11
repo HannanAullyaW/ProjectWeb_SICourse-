@@ -14,6 +14,10 @@
                             <input type="text" class="form-control" name="nama" id="nama">
                         </div>
                         <div class="form-group">
+                            <label class="label" for="username">Username</label>
+                            <input type="text" class="form-control" name="username" id="username">
+                        </div>
+                        <div class="form-group">
                             <label class="label" for="email">Alamat Email</label>
                             <input type="text" class="form-control" name="email" id="email">
                         </div>
@@ -25,10 +29,30 @@
                             <label class="label" for="password">Konfirmasi Kata Sandi</label>
                             <input type="password" class="form-control" name="confirmpassword" id="confirmpassword">
                         </div>
-                        <div class="form-group d-flex justify-content-end mt-4">
-                        </div>
-                        <h6 class="text-center">Already have an account? <a href="/masuk">Sign In</a></h6>
+                        <table>
                             <tr>
+                                <td>
+                                    <div class="justify-content-center ml-5">
+                                        <h6 class="text-center">Sudah Punya Akun? <a href="/masuk">Masuk</a></h6>
+                                    </div>
+
+                                </td>
+                                <td>
+                                    <div class="col-10">
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group d-flex justify-content-end mt-4">
+                                        <button type="submit" class="btn btn-primary submit"><span class="fa fa-paper-plane"></span></button>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                        </table>
+
+
                     </form>
 
                 </div>
