@@ -55,7 +55,7 @@ class BimbelController extends BaseController
         $data = [
             'title' => 'Pelajaran',
         ];
-        return view('pages/course', $data);
+        return view('pages/pelajaran', $data);
     }
     
     public function pengajar()

@@ -7,7 +7,7 @@
 		<div class="row no-gutters slider-text align-items-end justify-content-center">
 			<div class="col-md-9 ftco-animate pb-5 text-center">
 				<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Beranda <i class="fa fa-chevron-right"></i></a></span> <span><?= $title; ?> <i class="fa fa-chevron-right"></i></span></p>
-				<h1 class="mb-0 bread">Course Lists</h1>
+				<h1 class="mb-0 bread">Pelajaran</h1>
 			</div>
 		</div>
 	</div>
@@ -36,7 +36,7 @@
 				</div>
 
 				<div class="sidebar-box bg-white p-4 ftco-animate">
-					<h3 class="heading-sidebar">Pengajarr</h3>
+					<h3 class="heading-sidebar">Pengajar</h3>
 					<form action="#" class="browse-form">
 						<label for="option-instructor-1"><input type="checkbox" id="option-instructor-1" name="vehicle" value="" checked> Ronald Jackson</label><br>
 						<label for="option-instructor-2"><input type="checkbox" id="option-instructor-2" name="vehicle" value=""> John Dee</label><br>
@@ -88,7 +88,7 @@
 							</a>
 							<div class="text p-4">
 								<h3><a href="#">Soal TKP Tahun 2019</a></h3>
-								<p class="advisor">APengunggah <span>Ronald Jackson</span></p>
+								<p class="advisor">Pengunggah <span>Ronald Jackson</span></p>
 								<ul class="d-flex justify-content-between">
 									<li><span class="flaticon-shower"></span>2300</li>
 									<li class="price">Free</li>
