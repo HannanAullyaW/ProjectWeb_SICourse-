@@ -75,14 +75,11 @@
 
                 <div class="col-md pt-5">
                     <div class="ftco-footer-widget pt-md-5 mb-4">
-                        <h2 class="ftco-heading-2">Pelajaran</h2>
+                        <h2 class="ftco-heading-2"><a href="/pelajaran">Pelajaran</a></h2>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="py-2 d-block">Ekonomi</a></li>
-                            <li><a href="#" class="py-2 d-block">Sosiologi</a></li>
-                            <li><a href="#" class="py-2 d-block">Sejarah</a></li>
-                            <li><a href="#" class="py-2 d-block">Matematika</a></li>
-                            <li><a href="#" class="py-2 d-block">Fisika</a></li>
-                            <li><a href="#" class="py-2 d-block">Kimia</a></li>
+                            <li><a href="#" class="py-2 d-block">TWK</a></li>
+                            <li><a href="#" class="py-2 d-block">TIU</a></li>
+                            <li><a href="#" class="py-2 d-block">TKP</a></li>
                         </ul>
                     </div>
                 </div>

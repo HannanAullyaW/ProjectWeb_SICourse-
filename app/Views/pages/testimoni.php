@@ -114,7 +114,7 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Belajar di CourseUs saya siap menghadapi ujiaan masuk di akpol, dengan para pengajar yang mengajarkan dengan baik dan mudah banget dimengerti. Sukses selalu untuk CourseUs!</p>
+                <p class="mb-4">Belajar di CourseUs saya siap menghadapi ujian masuk di akpol, dengan para pengajar yang mengajarkan dengan baik dan mudah banget dimengerti. Sukses selalu untuk CourseUs!</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                   <div class="pl-3">
@@ -237,8 +237,7 @@
         <div class="w-100 mb-4 mb-md-0">
           <span class="subheading">Welcome to CourseUs</span>
           <h2 class="mb-4">We Are CourseUs An Online Learning Center</h2>
-          <p>Kami membimbing anda untuk masuk ke sekolah kedinasan impian. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p>Kami membimbing anda untuk masuk ke sekolah kedinasan impian.</p>
           <div class="d-flex video-image align-items-center mt-md-4">
             <a href="#" class="video img d-flex align-items-center justify-content-center" style="background-image: url(images/about.jpg);">
               <span class="fa fa-play-circle"></span>
