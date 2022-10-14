@@ -35,6 +35,13 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+$routes->get('create-db', function () {
+    $forge = \Config\Database::forge();
+    if ($forge->createDatabase('courseus')) {
+        echo 'Database created!';
+    }
+});
+
 $routes->get('/', 'BimbelController::index');
 $routes->get('/home', 'BimbelController::index');
 $routes->get('/template', 'Home::template');

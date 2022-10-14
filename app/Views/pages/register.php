@@ -14,10 +14,6 @@
                             <input type="text" class="form-control" name="nama" id="nama">
                         </div>
                         <div class="form-group">
-                            <label class="label" for="username">Username</label>
-                            <input type="text" class="form-control" name="username" id="username">
-                        </div>
-                        <div class="form-group">
                             <label class="label" for="email">Alamat Email</label>
                             <input type="text" class="form-control" name="email" id="email">
                         </div>

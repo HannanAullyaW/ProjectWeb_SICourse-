@@ -16,4 +16,9 @@ class Home extends BaseController
         ];
         return view('templates/template',$data);
     }
+
+    public function generate()
+    {
+        
+    }
 }
