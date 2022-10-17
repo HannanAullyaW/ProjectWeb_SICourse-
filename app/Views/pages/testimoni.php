@@ -34,7 +34,7 @@
               <div class="col-md-12 heading-section ftco-animate">
                 <span class="subheading">Learn With Us</span>
                 <h2 class="mb-4"></h2>
-                <p>Course Us adalah bimbel spesialis masuk sekolah kedinasan terbaik bergaransi masuk Perguruan Tinggi Kedinasan terbaik. APA KATA LULUSAN COURSEUS</p>
+                <p>Course Us adalah bimbel spesialis masuk sekolah kedinasan terbaik bergaransi masuk Perguruan Tinggi Kedinasan terbaik. APA KATA LULUSAN COURSE US</p>
                 <!-- <p><a href="#" class="btn btn-primary">Get in touch with us</a></p> -->
               </div>
             </div>
@@ -54,7 +54,7 @@
           <div class="icon"><span class="flaticon-online"></span></div>
           <div class="text">
             <strong class="number" data-number="400">0</strong>
-            <span>Online Courses</span>
+            <span>Online Course Us</span>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Belajar di CourseUs saya siap menghadapi ujian masuk di akpol, dengan para pengajar yang mengajarkan dengan baik dan mudah banget dimengerti. Sukses selalu untuk CourseUs!</p>
+                <p class="mb-4">Belajar di Course Us saya siap menghadapi ujian masuk di akpol, dengan para pengajar yang mengajarkan dengan baik dan mudah banget dimengerti. Sukses selalu untuk Course Us!</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                   <div class="pl-3">
@@ -135,7 +135,7 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Selama belajar di CourseUs nyaman banget. Materi dapat dengan mudah dipahami.</p>
+                <p class="mb-4">Selama belajar di Course Us nyaman banget. Materi dapat dengan mudah dipahami.</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
                   <div class="pl-3">
@@ -156,7 +156,7 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Kesuksesan itu datang ketika ada kesempatan bertemu dengan kesiapan. Maka dari itu kita harus mempersiapkan hal yang perlu disiapkan jauh-jauh hari. Dan kesempatan itu bisa datang kapan saja, ketika kesempatan itu telah datang pastikan kita sudah siap untuk menghadapinya. Terima kasih CourseUs karena sudah membantu persiapan saya selama ini</p>
+                <p class="mb-4">Kesuksesan itu datang ketika ada kesempatan bertemu dengan kesiapan. Maka dari itu kita harus mempersiapkan hal yang perlu disiapkan jauh-jauh hari. Dan kesempatan itu bisa datang kapan saja, ketika kesempatan itu telah datang pastikan kita sudah siap untuk menghadapinya. Terima kasih Course Us karena sudah membantu persiapan saya selama ini</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
                   <div class="pl-3">
@@ -177,7 +177,7 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Terima kasih CourseUs yang telah membimbing saya selama ini, sukses selalu CourseUs</p>
+                <p class="mb-4">Terima kasih CourseUs yang telah membimbing saya selama ini, sukses selalu Course Us</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                   <div class="pl-3">
@@ -198,7 +198,7 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Di CourseUs kami dibimbing oleh pengajar yang profesional dan tentunya berkompeten. Adapun materi yang diberi selama ini sangat up to date mengikuti standar soal resminya. Terima Kasih para pengajar dan bimbel CourseUs</p>
+                <p class="mb-4">Di Course Us kami dibimbing oleh pengajar yang profesional dan tentunya berkompeten. Adapun materi yang diberi selama ini sangat up to date mengikuti standar soal resminya. Terima Kasih para pengajar dan bimbel Course Us</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
                   <div class="pl-3">
@@ -235,8 +235,8 @@
     <div class="row d-flex">
       <div class="col-md-6 heading-section pr-md-5 ftco-animate d-flex align-items-center">
         <div class="w-100 mb-4 mb-md-0">
-          <span class="subheading">Welcome to CourseUs</span>
-          <h2 class="mb-4">We Are CourseUs An Online Learning Center</h2>
+          <span class="subheading">Welcome to Course Us</span>
+          <h2 class="mb-4">We Are Course Us An Online Learning Center</h2>
           <p>Kami membimbing anda untuk masuk ke sekolah kedinasan impian.</p>
           <div class="d-flex video-image align-items-center mt-md-4">
             <a href="#" class="video img d-flex align-items-center justify-content-center" style="background-image: url(images/about.jpg);">
