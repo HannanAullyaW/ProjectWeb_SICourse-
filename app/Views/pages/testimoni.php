@@ -156,12 +156,12 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-4">Kesuksesan itu datang ketika ada kesempatan bertemu dengan kesiapan. Maka dari itu kita harus mempersiapkan hal yang perlu disiapkan jauh-jauh hari. Dan kesempatan itu bisa datang kapan saja, ketika kesempatan itu telah datang pastikan kita sudah siap untuk menghadapinya. Terima kasih CourseUs karena sudah membantu persiapan saya selama ini</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
                   <div class="pl-3">
-                    <p class="name">Roger Scott</p>
-                    <span class="position">Marketing Manager</span>
+                    <p class="name">Vidi Aldiano</p>
+                    <span class="position">PTDI - STTD</span>
                   </div>
                 </div>
               </div>
@@ -177,12 +177,12 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-4">Terima kasih CourseUs yang telah membimbing saya selama ini, sukses selalu CourseUs</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                   <div class="pl-3">
-                    <p class="name">Roger Scott</p>
-                    <span class="position">Marketing Manager</span>
+                    <p class="name">Rossa</p>
+                    <span class="position">Bintara Polri 2022</span>
                   </div>
                 </div>
               </div>
@@ -198,12 +198,12 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <p class="mb-4">Di CourseUs kami dibimbing oleh pengajar yang profesional dan tentunya berkompeten. Adapun materi yang diberi selama ini sangat up to date mengikuti standar soal resminya. Terima Kasih para pengajar dan bimbel CourseUs</p>
                 <div class="d-flex align-items-center">
                   <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
                   <div class="pl-3">
-                    <p class="name">Roger Scott</p>
-                    <span class="position">Marketing Manager</span>
+                    <p class="name">Bunga Citra Lestari</p>
+                    <span class="position">CPNS 2021</span>
                   </div>
                 </div>
               </div>
