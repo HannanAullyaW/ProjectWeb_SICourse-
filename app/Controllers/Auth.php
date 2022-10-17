@@ -14,6 +14,9 @@ class Auth extends BaseController
         $data = [
             'title' => 'Masuk',
         ];
+        if(session('id')){
+            return redirect()->to(site_url('home'));
+        }
         return view('pages/masuk', $data);
     }
 
