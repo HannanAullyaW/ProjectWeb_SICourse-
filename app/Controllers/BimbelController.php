@@ -52,7 +52,7 @@ class BimbelController extends BaseController
             ]
         ]);
         if ($validated) {
-            $students->insert($data);
+            $pelajar->insert($data);
             return redirect()->to('/pelajaran');
         } else {
             return redirect()->to('/register')->withInput()->with('errors', $this->validator->getErrors());
