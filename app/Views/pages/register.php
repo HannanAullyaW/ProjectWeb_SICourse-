@@ -22,7 +22,7 @@
                             <input type="password" class="form-control" name="password" id="password">
                         </div>
                         <div class="form-group">
-                            <label class="label" for="password">Konfirmasi Kata Sandi</label>
+                            <label class="label" for="confirmpassword">Konfirmasi Kata Sandi</label>
                             <input type="password" class="form-control" name="confirmpassword" id="confirmpassword">
                         </div>
                         <table>
