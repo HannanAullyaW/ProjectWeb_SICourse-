@@ -7,9 +7,10 @@ use App\Models\Pelajar;
 
 class BimbelController extends BaseController
 {
-
+    protected $Pelajar;
     public function __construct()
     {
+        $this->pelajar = new Pelajar();
     }
     public function index()
     {
