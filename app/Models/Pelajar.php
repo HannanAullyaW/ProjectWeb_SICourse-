@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class Students extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'students';
+    protected $table            = 'user';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
@@ -16,10 +16,9 @@ class Students extends Model
     protected $protectFields    = true;
     protected $allowedFields    = [
         'nama',
-        'alamat',
-        'email',     
-        'kata_sandi',
-        'konfirmasi',
+        'email',
+        'password',
+        'confirmpassword',
         'created_at',
         'updated_at',
     ];
