@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Students extends Model
+class Pelajar extends Model
 {
     protected $DBGroup          = 'default';
     protected $table            = 'user';
