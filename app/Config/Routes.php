@@ -52,6 +52,7 @@ $routes->get('/pelajaran', 'BimbelController::pelajaran');
 $routes->get('/pengajar', 'BimbelController::pengajar');
 $routes->get('/masuk', 'Auth::masuk');
 $routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
+$routes->get('/logout', 'Auth::logout');
 
 
 /*
