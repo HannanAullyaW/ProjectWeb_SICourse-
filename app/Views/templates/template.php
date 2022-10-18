@@ -46,6 +46,8 @@
                     <li class="nav-item"><a href="/pengajar" class="nav-link">Pengajar</a></li>
                     <li class="nav-item"><a href="/hubungikami" class="nav-link">Hubungi Kami</a></li>
                     <li class="nav-item"><a href="/masuk" class="nav-link btn btn-primary">Masuk</a></li>
+                    <li class="nav-item"><a href="/pengajar" class="nav-link"></a></li>
+                    <li class="nav-item" class="ml-4"><a href="/logout" class="nav-link btn btn-warning">Logout</a></li>
                 </ul>
             </div>
             <!-- </div> -->
