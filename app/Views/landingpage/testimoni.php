@@ -1,4 +1,4 @@
-<?= $this->extend('templates/template'); ?>
+<?= $this->extend('Landingpage/template'); ?>
 <?= $this->section('content'); ?>
 
 

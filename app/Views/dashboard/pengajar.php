@@ -1,4 +1,4 @@
-<?= $this->extend('templates/template'); ?>
+<?= $this->extend('dashboard/template'); ?>
 <?= $this->section('content'); ?>
 
 <section class="hero-wrap hero-wrap-2" style="background-image: url('assets/templateweb/images/bannerutama.jpg');">

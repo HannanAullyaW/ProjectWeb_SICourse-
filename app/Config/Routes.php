@@ -42,12 +42,17 @@ $routes->get('create-db', function () {
     }
 });
 
-$routes->get('/', 'BimbelController::index');
+$routes->get('/', 'LandingpageController::index');
+$routes->get('/masuk', 'Auth::masuk');
+$routes->get('/dashboard/beranda', 'DashboardController::index');
+$routes->get('/testimoni', 'LandingpageController::testimoni');
+$routes->get('/hubungikami', 'LandingpageController::hubungikami');
+
+
 $routes->get('/home', 'BimbelController::index');
 $routes->get('/template', 'Home::template');
 $routes->get('/register', 'Register::register');
-$routes->get('/hubungikami', 'BimbelController::hubungikami');
-$routes->get('/testimoni', 'BimbelController::testimoni');
+
 $routes->get('/pelajaran', 'BimbelController::pelajaran');
 $routes->get('/pengajar', 'BimbelController::pengajar');
 $routes->get('/masuk', 'Auth::masuk');

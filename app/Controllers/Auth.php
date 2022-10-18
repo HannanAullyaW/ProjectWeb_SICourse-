@@ -15,9 +15,9 @@ class Auth extends BaseController
             'title' => 'Masuk',
         ];
         if(session('id')){
-            return redirect()->to(site_url('home'));
+            return redirect()->to(site_url('dashboard/beranda'));
         }
-        return view('pages/masuk', $data);
+        return view('landingpage/masuk', $data);
     }
 
     public function prosesMasuk()
@@ -29,7 +29,7 @@ class Auth extends BaseController
             if(password_verify($post['password'],$users->password)){
                 $params=['id'=>$users->id];
                 session()->set($params);
-                return redirect()->to(site_url('/'));
+                return redirect()->to(site_url('dashboard/beranda'));
                 
             } else{
                 return redirect()->back()->with('error', 'Password Salah!');

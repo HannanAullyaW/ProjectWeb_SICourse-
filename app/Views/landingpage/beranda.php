@@ -1,4 +1,4 @@
-<?= $this->extend('templates/template'); ?>
+<?= $this->extend('landingpage/template'); ?>
 <?= $this->section('content'); ?>
 
 <!-- body -->
