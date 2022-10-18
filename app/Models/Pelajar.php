@@ -19,12 +19,10 @@ class Pelajar extends Model
         'email',
         'password',
         'confirmpassword',
-        'created_at',
-        'updated_at',
     ];
 
     // Dates
-    protected $useTimestamps = false;
+    protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
