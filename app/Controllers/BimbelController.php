@@ -82,7 +82,7 @@ class BimbelController extends BaseController
         $data = [
             'title' => 'Pelajaran',
         ];
-        return view('pages/pelajaran', $data);
+        return view('dashboard/pelajaran', $data);
     }
     
     public function pengajar()
@@ -90,7 +90,7 @@ class BimbelController extends BaseController
         $data = [
             'title' => 'Pengajar',
         ];
-        return view('pages/pengajar', $data);
+        return view('dashboard/pengajar', $data);
     }
     
 }
