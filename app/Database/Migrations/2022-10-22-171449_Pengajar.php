@@ -19,6 +19,10 @@ class Pengajar extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
             ],
+            'bidang_pengajar' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '100',
+            ],
             'info_pengajar' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
