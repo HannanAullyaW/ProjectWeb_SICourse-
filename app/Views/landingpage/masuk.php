@@ -30,7 +30,7 @@
                             <div class="form-group d-flex justify-content-center mt-4 ">
                                 <button type="submit" class="btn btn-primary submit">Masuk</span></button>
                             </div>
-                            <h6 class="text-center">Belum Punya Akun? <a href="/register">Daftar</a></h6>
+                            <h6 class="text-center">Belum Punya Akun? <a href="/landingpage/register">Daftar</a></h6>
                     </form>
 
                 </div>

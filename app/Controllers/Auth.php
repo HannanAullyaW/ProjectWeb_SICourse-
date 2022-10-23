@@ -44,5 +44,27 @@ class Auth extends BaseController
 		session()->destroy();
 		return redirect()->to(base_url('/'));
 	}
+    public function register(){
+        return view('landingpag/register');
+    }
+    public function regisProcess(){
+        $post = $this->request->getPost();
+        $query = $this ->db->table('user')->getWhere(['email'-> $post['email']]);
+        $user = $query->getRow();
+        if($user){
+            if(password_verify($post['password'],$user->passoword)){
+                $params =['id_user'=>$user->id];
+                session()->set($params);
+                return redirect()->to(site_url('beranda'));
+            }else{
+                return redirect()->back()->with('error','passqord tidak sesuai');
+            }
+
+        }else{
+            return redirect()->back()->with('error', 'tidak berhasil daftar, email tidak ditemukan');
+        }
+
+
+    }
 
 }

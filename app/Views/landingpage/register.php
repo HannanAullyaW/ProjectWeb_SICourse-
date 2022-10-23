@@ -8,7 +8,20 @@
             <div class="col-md-5 mt-5 order-md-last">
                 <div class="login-wrap p-5 p-md-5  mt-5">
                     <h3 class="mb-4">Mulai Belajar Bersama Kami?</h3>
-                    <form action="#" class="signup-form">
+                    
+                    <div class="card body">
+                        <?php if(session()->getflashdata('error')):?>
+                            <div class="alert alert danger alert dismissible show fade">
+                                <div class="alert-body">
+                                    <button class="close" data-dismiss="alert"></button>
+                                    <b>Error !</b>
+                                    <?=session()->getflashdata('error')?>
+                                </div>
+                            </div>
+                        <?php endif;?>
+                    </div>
+                    <form method="POST"action="<?=site_url('auth/loginProcess')?>" class="signup-form" novalidate="">
+                    <?=csrf_field()?>
                         <div class="form-group">
                             <label class="label" for="name">Nama Lengkap</label>
                             <input type="text" class="form-control" name="nama" id="nama">
@@ -20,10 +33,6 @@
                         <div class="form-group">
                             <label class="label" for="password">Kata Sandi</label>
                             <input type="password" class="form-control" name="password" id="password">
-                        </div>
-                        <div class="form-group">
-                            <label class="label" for="confirmpassword">Konfirmasi Kata Sandi</label>
-                            <input type="password" class="form-control" name="confirmpassword" id="confirmpassword">
                         </div>
                         <table>
                             <tr>
