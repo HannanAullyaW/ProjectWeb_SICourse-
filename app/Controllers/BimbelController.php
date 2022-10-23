@@ -28,7 +28,7 @@ class BimbelController extends BaseController
     //     $data = [
     //         'title' => 'Daftar Sekarang',
     //         'nama' => $this->request->getVar('nama'),
-    //         'email' => $this->request->getVar('email'),
+    //         'email' => $this->request- >getVar('email'),
     //         'password' => $this->request->getVar('password'),
     //         'confirmpassword' => $this->request->getVar('confirmpassword'),
     //     ];

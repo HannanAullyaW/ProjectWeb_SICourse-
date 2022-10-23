@@ -57,7 +57,7 @@ class Auth extends BaseController
                 session()->set($params);
                 return redirect()->to(site_url('beranda'));
             }else{
-                return redirect()->back()->with('error','passqord tidak sesuai');
+                return redirect()->back()->with('error','password tidak sesuai');
             }
 
         }else{
