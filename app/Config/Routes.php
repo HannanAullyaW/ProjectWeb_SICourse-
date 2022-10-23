@@ -45,6 +45,7 @@ $routes->get('/register', 'Auth::register');
 $routes->post('/auth/regisProcess', 'Auth::regisProcess');
 
 $routes->get('/', 'LandingpageController::index');
+$routes->get('/register', 'Auth::register');
 $routes->get('/masuk', 'Auth::masuk');
 $routes->get('/dashboard/beranda', 'DashboardController::index');
 $routes->get('/testimoni', 'LandingpageController::testimoni');

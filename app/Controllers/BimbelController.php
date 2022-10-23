@@ -19,46 +19,6 @@ class BimbelController extends BaseController
         ];
         return view('pages/home', $data);
     }
-
-    // public function register()
-    // {
-
-    //     $pelajar = new Pelajar();
-
-    //     $data = [
-    //         'title' => 'Daftar Sekarang',
-    //         'nama' => $this->request->getVar('nama'),
-    //         'email' => $this->request- >getVar('email'),
-    //         'password' => $this->request->getVar('password'),
-    //         'confirmpassword' => $this->request->getVar('confirmpassword'),
-    //     ];
-
-
-    //     $validated = $this->validate([
-    //         'name' => [
-    //             'rules' => 'required|min_length[4]',
-    //             'errors' => [
-    //                 'required' => 'Nama harus diisi',
-    //                 'min_length' => 'Nama minimal 4 karakter'
-    //             ]
-    //         ],
-    //         'email' => [
-    //             'rules' => 'required|valid_email',
-    //             'errors' => [
-    //                 'required' => 'Email harus diisi',
-    //                 'valid_email' => 'Email tidak valid'
-    //             ]
-    //         ]
-    //     ]);
-    //     if ($validated) {
-    //         $pelajar->insert($data);
-    //         return redirect()->to('/pelajaran');
-    //     } else {
-    //         return redirect()->to('/register')->withInput()->with('errors', $this->validator->getErrors());
-    //     }
-    //     return view('pages/register', $data);
-    // }
-
     public function hubungikami()
     {
         $data = [
@@ -75,7 +35,13 @@ class BimbelController extends BaseController
         return view('pages/masuk', $data);
     }
 
-    
+    public function register()
+    {
+        $data = [
+            'title' => 'Register',
+        ];
+        return view('landingpages/register', $data);
+    }
 
     public function pelajaran()
     {
