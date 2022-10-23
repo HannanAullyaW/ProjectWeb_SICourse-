@@ -41,7 +41,9 @@ $routes->get('create-db', function () {
         echo 'Database created!';
     }
 });
-$routes->get('/register', 'Auth::register');
+
+
+// $routes->get('/register', 'Auth::register');
 $routes->post('/auth/regisProcess', 'Auth::regisProcess');
 
 $routes->get('/', 'LandingpageController::index');
