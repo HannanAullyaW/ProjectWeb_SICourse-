@@ -44,10 +44,11 @@ $routes->get('create-db', function () {
 
 
 // $routes->get('/register', 'Auth::register');
+$routes->get('/daftar', 'Auth::register');
+// $routes->match(['get', 'post'], '/auth/regisProcess', 'Auth::regisProcess');
 $routes->post('/auth/regisProcess', 'Auth::regisProcess');
 
 $routes->get('/', 'LandingpageController::index');
-$routes->get('/register', 'Auth::register');
 $routes->get('/masuk', 'Auth::masuk');
 $routes->get('/dashboard/beranda', 'DashboardController::index');
 $routes->get('/testimoni', 'LandingpageController::testimoni');

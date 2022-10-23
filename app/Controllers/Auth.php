@@ -45,24 +45,23 @@ class Auth extends BaseController
 		return redirect()->to(base_url('/'));
 	}
     public function register(){
-        return view('landingpage/register');
+        $data = [
+            'title' => 'Daftar',
+        ];
+        return view('landingpage/daftar',$data);
     }
     public function regisProcess(){
-        $post = $this->request->getPost();
-     
-        $user = $query->getRow();
-        if($user){
-            if(password_verify($post['password'],$user->password)){
-                $params =['id_user'=>$user->id];
-                session()->set($params);
-                return redirect()->to(site_url('/dashboard/beranda'));
-            }else{
-                return redirect()->back()->with('error','password tidak sesuai');
-            }
+        $userModel = model(UserModel::class); // Sesuai Dokumentasi CI4 https://codeigniter.com/user_guide/tutorial/create_news_items.html
+        $data = [
+            
+            'nama' => $this -> request -> getPost('nama'),
+            'email' => $this -> request -> getPost('email'),
+            'password' => password_hash($this->request->getVar('password'), PASSWORD_BCRYPT),
 
-        }else{
-            return redirect()->back()->with('error', 'tidak berhasil daftar, email tidak ditemukan');
-        }
+        ];
+
+        $userModel->save($data);
+        return redirect()->to('masuk');
 
 
     }

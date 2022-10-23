@@ -1,4 +1,5 @@
-
+<?= $this->extend('landingpage/template'); ?>
+<?= $this->section('content'); ?>
 
 <div class="hero-wrap js-fullheight" style="background-image: url('assets/templateweb/images/bannerutama.jpg');">
     <div class="overlay"></div>
@@ -17,10 +18,10 @@
                             </div>
                         </div>
                     <?php endif; ?>
-                    <form method="POST"action="<?=site_url('auth/regisProcess')?>" class="signup-form">
+                    <form method="post"action="/auth/regisProcess" class="signup-form">
                     
                         <div class="form-group">
-                            <label class="label" for="name">Nama Lengkap</label>
+                            <label class="label" for="nama">Nama Lengkap</label>
                             <input type="text" class="form-control" name="nama" id="nama">
                         </div>
                         <div class="form-group">
@@ -64,4 +65,6 @@
         </div>
     </div>
 </div>
+
+<?= $this->endSection(); ?>
 
