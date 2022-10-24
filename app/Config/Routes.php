@@ -60,7 +60,7 @@ $routes->get('/home', 'BimbelController::index');
 $routes->get('/template', 'Home::template');
 $routes->get('/dashboard/pelajaran', 'BimbelController::pelajaran');
 $routes->get('/dashboard/pengajar', 'BimbelController::pengajar');
-$routes->match(['get','post'],'/uploadpengajar', 'BimbelController::uploadPengajar');
+$routes->match(['get','post'],'/uploadpengajar', 'DashboardController::uploadPengajar');
 $routes->get('/masuk', 'Auth::masuk');
 $routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
 $routes->get('/logout', 'Auth::logout');
