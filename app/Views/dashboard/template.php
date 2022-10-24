@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 
         <div class="container">
-            <a class="navbar-brand" href="/home"><span>Course</span> Us!</a>
+            <a class="navbar-brand" href="/dashboard/home"><span>Course</span> Us!</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span>
                 <div class="navbar-toggler-icon"></div>
@@ -41,9 +41,9 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="/dashboard/beranda" class="nav-link">Beranda</a></li>
-                    <li class="nav-item"><a href="/pelajaran" class="nav-link">Pelajaran</a></li>
-                    <li class="nav-item"><a href="/pengajar" class="nav-link">Pengajar</a></li>
-                    <li class="nav-item" class="ml-4"><a href="/logout" class="nav-link btn btn-warning">Keluar</a></li>
+                    <li class="nav-item"><a href="/dashboard/pelajaran" class="nav-link">Pelajaran</a></li>
+                    <li class="nav-item"><a href="/dashboard/pengajar" class="nav-link">Pengajar</a></li>
+                    <li class="nav-item" class="ml-4"><a href="/dashboard/logout" class="nav-link btn btn-warning">Keluar</a></li>
                 </ul>
             </div>
             <!-- </div> -->
@@ -60,7 +60,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md pt-5">
-                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                    <div class="ftco-footer-widget">
                         <h2 class="ftco-heading-2">Tentang Kami</h2>
                         <p>Pahami materi lebih mudah bersama kami, raih mimpi lewat prestasi!</p>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
@@ -71,9 +71,9 @@
                     </div>
                 </div>
 
-                <div class="col-md pt-5">
-                    <div class="ftco-footer-widget pt-md-5 mb-4">
-                        <h2 class="ftco-heading-2"><a href="/pelajaran">Pelajaran</a></h2>
+                <div class="col-md pt-5 text-center">
+                    <div class="ftco-footer-widget">
+                        <h2 class="ftco-heading-2 "><a href="/pelajaran">Pelajaran</a></h2>
                         <ul class="list-unstyled">
                             <li><a href="#" class="py-2 d-block">TWK</a></li>
                             <li><a href="#" class="py-2 d-block">TIU</a></li>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col-md pt-5">
-                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                    <div class="ftco-footer-widget">
                         <h2 class="ftco-heading-2"><a href="/hubungikami">Info lanjut</a></h2>
                         <div class="block-23 mb-3">
                             <ul>
