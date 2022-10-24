@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
         <div class="col-md-7 ftco-animate">
-            <span class="subheading">Hi Friend!</span>
+            <h1 class="subheading">Hi Friend! </h1> 
             <h1 class="mb-4">Selamat Datang di Course Us</h1>
             </p>
         </div>
