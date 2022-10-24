@@ -72,7 +72,7 @@ class Filters extends BaseConfig
     public $filters = [
         'isLoggedIn' => ['before' =>
         [
-            'home',
+            '/dashboard/beranda',
         ]
         ]
     ];
