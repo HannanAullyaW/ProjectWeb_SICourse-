@@ -24,7 +24,7 @@ class PengajarSeeder extends Seeder
                 'gambar' => 'guru3.jpg'
             ],
             [
-                'nama_pengajar' => 'Cassandra Putri',
+                'nama_pengajar' => 'Sutarmi Wati',
                 'bidang_pengajar'    => 'TIU',
                 'info_pengajar'    => 'TIU soal mudah dengan cara yang tepat',
                 'gambar' => 'guru2.jpg'
