@@ -12,26 +12,24 @@ class PengajarSeeder extends Seeder
         //multi data
         $data = [
             [
-                'nama' => 'Satria Sapta',
-                'email'    => 'satriasapta48@gmail.com',
-                'password'    => password_hash('12345', PASSWORD_BCRYPT),
+                'nama_pengajar' => 'Robert Einstein',
+                'bidang_pengajar'    => 'TWK',
+                'info_pengajar'    => 'TWK itu gampang dipahami adik adik',
+                'gambar' => 'guru.jpg'
             ],
             [
-                'nama' => 'Rendy Luthfi',
-                'email'    => 'rendyluthfi@gmail.com',
-                'password'    => password_hash('12345', PASSWORD_BCRYPT),
+                'nama_pengajar' => 'Cassandra Putri',
+                'bidang_pengajar'    => 'TKP',
+                'info_pengajar'    => 'TKP itu pilih yang paling baik diantara yang baik',
+                'gambar' => 'guru3.jpg'
             ],
             [
-                'nama' => 'Aullya Hanan',
-                'email'    => 'aullyahananw@gmail.com',
-                'password'    => password_hash('12345', PASSWORD_BCRYPT),
-            ],
-            [
-                'nama' => 'Thalia Gemi',
-                'email'    => 'thaliagemi@gmail.com',
-                'password'    => password_hash('12345', PASSWORD_BCRYPT),
+                'nama_pengajar' => 'Cassandra Putri',
+                'bidang_pengajar'    => 'TIU',
+                'info_pengajar'    => 'TIU soal mudah dengan cara yang tepat',
+                'gambar' => 'guru2.jpg'
             ],
         ];
-        $this->db->table('user')->insertBatch($data);
+        $this->db->table('pengajar')->insertBatch($data);
     }
 }
