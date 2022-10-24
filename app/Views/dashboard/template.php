@@ -43,7 +43,7 @@
                     <li class="nav-item active"><a href="/dashboard/beranda" class="nav-link">Beranda</a></li>
                     <li class="nav-item"><a href="/dashboard/pelajaran" class="nav-link">Pelajaran</a></li>
                     <li class="nav-item"><a href="/dashboard/pengajar" class="nav-link">Pengajar</a></li>
-                    <li class="nav-item" class="ml-4"><a href="/dashboard/logout" class="nav-link btn btn-warning">Keluar</a></li>
+                    <li class="nav-item" class="ml-4"><a href="/logout" class="nav-link btn btn-warning">Keluar</a></li>
                 </ul>
             </div>
             <!-- </div> -->

@@ -48,6 +48,9 @@ class Auth extends BaseController
         $data = [
             'title' => 'Daftar',
         ];
+        if(session('id')){
+            return redirect()->to(site_url('dashboard/beranda'));
+        }
         return view('landingpage/daftar',$data);
     }
     public function regisProcess(){
