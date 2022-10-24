@@ -82,98 +82,24 @@
 						</div>
 					</div>
 					<div class="col-md-6 d-flex align-items-stretch ftco-animate">
-						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(images/work-2.jpg);">
-								<span class="price">Selengkapnya</span>
-							</a>
-							<div class="text p-4">
-								<h3><a href="#">Soal TKP Tahun 2019</a></h3>
-								<p class="advisor">Pengunggah <span>Ronald Jackson</span></p>
-								<ul class="d-flex justify-content-between">
-									<li><span class="flaticon-shower"></span>2300</li>
-									<li class="price">Free</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 d-flex align-items-stretch ftco-animate">
-						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(images/work-3.jpg);">
-								<span class="price">Selengkapnya</span>
-							</a>
-							<div class="text p-4">
-								<h3><a href="#">Soal TIU Tahun 2018</a></h3>
-								<p class="advisor">Pengunggah <span>John Dee</span></p>
-								<ul class="d-flex justify-content-between">
-									<li><span class="flaticon-shower"></span>2300</li>
-									<li class="price">Free</li>
-								</ul>
-							</div>
-						</div>
-					</div>
 
-					<div class="col-md-6 d-flex align-items-stretch ftco-animate">
-						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(images/work-4.jpg);">
-								<span class="price">Selengkapnya</span>
-							</a>
-							<div class="text p-4">
-								<h3><a href="#">Materi TWK Course Us!</a></h3>
-								<p class="advisor">Pengunggah <span>John Dee</span></p>
-								<ul class="d-flex justify-content-between">
-									<li><span class="flaticon-shower"></span>2300</li>
-									<li class="price">Free</li>
+					</div>
+					<div class="row mt-5">
+						<div class="col">
+							<div class="block-27">
+								<ul>
+									<li><a href="#">&lt;</a></li>
+									<li class="active"><span>1</span></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li><a href="#">&gt;</a></li>
 								</ul>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-6 d-flex align-items-stretch ftco-animate">
-						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(images/work-5.jpg);">
-								<span class="price">Selengkapnya</span>
-							</a>
-							<div class="text p-4">
-								<h3><a href="#">Materi TIU dan TKP Course Us!</a></h3>
-								<p class="advisor">Pengunggah <span>Nathan Messy</span></p>
-								<ul class="d-flex justify-content-between">
-									<li><span class="flaticon-shower"></span>2300</li>
-									<li class="price">Free</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 d-flex align-items-stretch ftco-animate">
-						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(images/work-6.jpg);">
-								<span class="price">Selengkapnya</span>
-							</a>
-							<div class="text p-4">
-								<h3><a href="#">Video Belajar</a></h3>
-								<p class="advisor">Pengunggah <span>Nathan Messy</span></p>
-								<ul class="d-flex justify-content-between">
-									<li><span class="flaticon-shower"></span>2300</li>
-									<li class="price">Free</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row mt-5">
-					<div class="col">
-						<div class="block-27">
-							<ul>
-								<li><a href="#">&lt;</a></li>
-								<li class="active"><span>1</span></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
-								<li><a href="#">5</a></li>
-								<li><a href="#">&gt;</a></li>
-							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 </section>
 <?= $this->endSection(); ?>
