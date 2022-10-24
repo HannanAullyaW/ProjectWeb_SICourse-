@@ -57,8 +57,8 @@ $routes->get('/hubungikami', 'LandingpageController::hubungikami');
 
 $routes->get('/home', 'BimbelController::index');
 $routes->get('/template', 'Home::template');
-$routes->get('/pelajaran', 'BimbelController::pelajaran');
-$routes->get('/pengajar', 'BimbelController::pengajar');
+$routes->get('/dashboard/pelajaran', 'BimbelController::pelajaran');
+$routes->get('/dashboard/pengajar', 'BimbelController::pengajar');
 $routes->match(['get','post'],'/uploadpengajar', 'BimbelController::uploadPengajar');
 $routes->get('/masuk', 'Auth::masuk');
 $routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
