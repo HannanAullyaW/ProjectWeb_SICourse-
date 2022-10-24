@@ -51,6 +51,7 @@ $routes->post('/auth/regisProcess', 'Auth::regisProcess');
 $routes->get('/', 'LandingpageController::index');
 $routes->get('/masuk', 'Auth::masuk');
 $routes->get('/dashboard/beranda', 'DashboardController::index');
+$routes->get('/dashboard/pengajar', 'DashboardController::pengajar');
 $routes->get('/testimoni', 'LandingpageController::testimoni');
 $routes->get('/hubungikami', 'LandingpageController::hubungikami');
 
