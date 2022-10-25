@@ -56,10 +56,10 @@
 
 
     <!-- Footer -->
-    <footer class="ftco-footer ftco-no-pt">
+    <footer class="ftco-footer ftco-no-pt mb-1">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-md pt-5">
+            <div class="row ">
+                <div class="col-md pt-3">
                     <div class="ftco-footer-widget">
                         <h2 class="ftco-heading-2">Tentang Kami</h2>
                         <p>Pahami materi lebih mudah bersama kami, raih mimpi lewat prestasi!</p>
@@ -71,7 +71,7 @@
                     </div>
                 </div>
 
-                <div class="col-md pt-5 text-center">
+                <div class="col-md pt-3 text-center">
                     <div class="ftco-footer-widget">
                         <h2 class="ftco-heading-2 "><a href="/pelajaran">Pelajaran</a></h2>
                         <ul class="list-unstyled">
@@ -81,10 +81,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md pt-5">
+                <div class="col-md pt-3">
                     <div class="ftco-footer-widget">
                         <h2 class="ftco-heading-2"><a href="/hubungikami">Info lanjut</a></h2>
-                        <div class="block-23 mb-3">
+                        <div class="block-23">
                             <ul>
                                 <li><span class="icon fa fa-map-marker"></span><span class="text">Wisma Istiqomah, Bumi Manti 4</span></li>
                                 <li><a href="https://wa.me/+6288269638116"><span class="icon fa fa-phone"></span><span class="text">+62-882-6963-8116</span></a></li>
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col text-center">
 
                     <p>
                         Copyright &copy;<script>

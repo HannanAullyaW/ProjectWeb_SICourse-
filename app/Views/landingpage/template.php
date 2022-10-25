@@ -56,11 +56,12 @@
 
 
     <!-- Footer -->
-    <footer class="ftco-footer ftco-no-pt">
+    <!-- Footer -->
+    <footer class="ftco-footer ftco-no-pt mb-1">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-md pt-5">
-                    <div class="ftco-footer-widget pt-md-5 mb-4">
+            <div class="row ">
+                <div class="col-md pt-3">
+                    <div class="ftco-footer-widget">
                         <h2 class="ftco-heading-2">Tentang Kami</h2>
                         <p>Pahami materi lebih mudah bersama kami, raih mimpi lewat prestasi!</p>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
@@ -71,9 +72,9 @@
                     </div>
                 </div>
 
-                <div class="col-md pt-5">
-                    <div class="ftco-footer-widget pt-md-5 mb-4">
-                        <h2 class="ftco-heading-2"><a href="/pelajaran">Pelajaran</a></h2>
+                <div class="col-md pt-3 text-center">
+                    <div class="ftco-footer-widget">
+                        <h2 class="ftco-heading-2 "><a href="/pelajaran">Pelajaran</a></h2>
                         <ul class="list-unstyled">
                             <li><a href="#" class="py-2 d-block">TWK</a></li>
                             <li><a href="#" class="py-2 d-block">TIU</a></li>
@@ -81,10 +82,10 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md pt-5">
-                    <div class="ftco-footer-widget pt-md-5 mb-4">
+                <div class="col-md pt-3">
+                    <div class="ftco-footer-widget">
                         <h2 class="ftco-heading-2"><a href="/hubungikami">Info lanjut</a></h2>
-                        <div class="block-23 mb-3">
+                        <div class="block-23">
                             <ul>
                                 <li><span class="icon fa fa-map-marker"></span><span class="text">Wisma Istiqomah, Bumi Manti 4</span></li>
                                 <li><a href="https://wa.me/+6288269638116"><span class="icon fa fa-phone"></span><span class="text">+62-882-6963-8116</span></a></li>
@@ -95,7 +96,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col text-center">
 
                     <p>
                         Copyright &copy;<script>
@@ -116,21 +117,21 @@
         </svg></div>
 
 
-    <script src="assets/templateweb/js/jquery.min.js"></script>
-    <script src="assets/templateweb/js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="assets/templateweb/js/popper.min.js"></script>
-    <script src="assets/templateweb/js/bootstrap.min.js"></script>
-    <script src="assets/templateweb/js/jquery.easing.1.3.js"></script>
-    <script src="assets/templateweb/js/jquery.waypoints.min.js"></script>
-    <script src="assets/templateweb/js/jquery.stellar.min.js"></script>
-    <script src="assets/templateweb/js/owl.carousel.min.js"></script>
-    <script src="assets/templateweb/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/templateweb/js/jquery.animateNumber.min.js"></script>
-    <script src="assets/templateweb/js/bootstrap-datepicker.js"></script>
-    <script src="assets/templateweb/js/scrollax.min.js"></script>
+    <script src="/assets/templateweb/js/jquery.min.js"></script>
+    <script src="/assets/templateweb/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="/assets/templateweb/js/popper.min.js"></script>
+    <script src="/assets/templateweb/js/bootstrap.min.js"></script>
+    <script src="/assets/templateweb/js/jquery.easing.1.3.js"></script>
+    <script src="/assets/templateweb/js/jquery.waypoints.min.js"></script>
+    <script src="/assets/templateweb/js/jquery.stellar.min.js"></script>
+    <script src="/assets/templateweb/js/owl.carousel.min.js"></script>
+    <script src="/assets/templateweb/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/templateweb/js/jquery.animateNumber.min.js"></script>
+    <script src="/assets/templateweb/js/bootstrap-datepicker.js"></script>
+    <script src="/assets/templateweb/js/scrollax.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="assets/templateweb/js/google-map.js"></script>
-    <script src="assets/templateweb/js/main.js"></script>
+    <script src="/assets/templateweb/js/google-map.js"></script>
+    <script src="/assets/templateweb/js/main.js"></script>
 
 </body>
 
