@@ -59,8 +59,9 @@ class Auth extends BaseController
             'password' => password_hash($this->request->getVar('password'), PASSWORD_BCRYPT),
 
         ];
-
         $userModel->save($data);
+        $session = session();
+        session()->setFlashdata('message','selamat registrasi berhasil!');
         return redirect()->to('masuk');
 
 

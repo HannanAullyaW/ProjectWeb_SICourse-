@@ -16,6 +16,10 @@
                                 <?= session()->getFlashdata('error'); ?>
                             </div>
                         </div>
+                    <?php elseif(!empty(session()->getFlashdata('message'))): ?>
+                        <div class="alert alert-info">
+                            <?= session()->getFlashdata('message')?>
+                        </div>
                     <?php endif; ?>
                     <form method="POST" action="<?= site_url('auth/prosesMasuk'); ?>"  class="signup-form">
 
