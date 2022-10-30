@@ -66,21 +66,22 @@
 			</div>
 			<div class="col-lg-9">
 				<div class="row">
-					<div class="col-md-6 d-flex align-items-stretch ftco-animate">
-						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(images/work-1.jpg);">
-								<span class="price">Selengkapnya</span>
-							</a>
-							<div class="text p-4">
-								<h3><a href="#">Soal TWK Tahun 2010</a></h3>
-								<p class="advisor">Pengunggah <span>Ronald Jackson</span></p>
-								<ul class="d-flex justify-content-between">
-									<li><span class="flaticon-shower"></span>2300</li>
-									<li class="price">Free</li>
-								</ul>
+					<?php foreach ($pelajaran as $pljrn) : ?>
+						<div class="col-md-6 d-flex align-items-stretch ftco-animate">
+							<div class="project-wrap">
+								<img src="<?= base_url('uploads/'.$pljrn->gambar); ?>" alt="gambar" style="width: 398px; height:300px">
+									<span class="price">Selengkapnya</span>
+								<div class="text p-4">
+									<h3><a href="#"><?= $pljrn->judul_pelajaran; ?></a></h3>
+									<p class="advisor">Pengajar <span><?= $pljrn->nama_pengajar; ?></span></p>
+									<ul class="d-flex justify-content-between">
+										<li><span class="flaticon-shower"></span><?= $pljrn->kategori_pelajaran; ?></li>
+										<li class="price">Free</li>
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
+					<?php endforeach ?>
 					<div class="col-md-6 d-flex align-items-stretch ftco-animate">
 
 					</div>

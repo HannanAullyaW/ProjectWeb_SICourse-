@@ -47,6 +47,7 @@ class BimbelController extends BaseController
     {
         $data = [
             'title' => 'Pelajaran',
+            'pelajaran' => $this->db->table('pelajaran')->get()->getResult()
         ];
         return view('dashboard/pelajaran', $data);
     }

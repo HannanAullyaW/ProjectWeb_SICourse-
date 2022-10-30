@@ -19,6 +19,10 @@ class Pelajaran extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
             ],
+            'nama_pengajar' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '100',
+            ],
             'kategori_pelajaran' => [
                 'type'       => 'VARCHAR',
                 'constraint' => '100',
