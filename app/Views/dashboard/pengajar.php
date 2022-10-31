@@ -23,7 +23,7 @@
                 <div class="staff">
                     <div class="img-wrap d-flex align-items-stretch">
                         <div class="img align-self-stretch">
-                            <img src="<?= base_url('uploads/'.$gbr->gambar); ?>" style="height: 200px;  width: 100px;" alt="">
+                            <img src="<?= base_url('uploads/'.$gbr->gambar); ?>" style="height: 200px;  width: 300px;" alt="">
                         </div>
                     </div>
                     <div class="text pt-3">
