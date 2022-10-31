@@ -10,8 +10,8 @@ class LoginFilter implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
-        if(session('id')){
-            return redirect()->to(site_url('landingpage/masuk'));
+        if(!session('id')){
+            return redirect()->to(site_url('/masuk'));
         }
     }
 

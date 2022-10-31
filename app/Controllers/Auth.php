@@ -11,12 +11,17 @@ class Auth extends BaseController
 
     public function masuk()
     {
+
+
+
         $data = [
             'title' => 'Masuk',
         ];
         if(session('id')){
-            return redirect()->to(site_url('dashboard/beranda'));
+            return redirect()->to(site_url('/testimoni'));
         }
+
+
         return view('landingpage/masuk', $data);
     }
 
@@ -49,7 +54,7 @@ class Auth extends BaseController
             'title' => 'Daftar',
         ];
         if(session('id')){
-            return redirect()->to(site_url('dashboard/beranda'));
+            return redirect()->to(site_url('/testimoni'));
         }
         return view('landingpage/daftar',$data);
     }
