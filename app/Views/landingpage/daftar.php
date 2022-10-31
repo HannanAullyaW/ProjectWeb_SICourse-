@@ -46,7 +46,7 @@
                                     </div>
                                 </td>
                                 <td>
-                                    <div class="form-group d-flex justify-content-end mt-4">
+                                    <div class="form-group d-flex justify-content-end mt-4 ">
                                         <button type="submit" class="btn btn-primary submit">Daftar<span class="fa fa-paper-plane"></span>
                                     </button>
                                     </div>
