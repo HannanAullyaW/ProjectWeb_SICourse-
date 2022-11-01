@@ -24,9 +24,9 @@ class UserSeeder extends Seeder
                 'password'    => password_hash('12345', PASSWORD_BCRYPT),
             ],
             [
-                'nama' => 'Rendy Luthfi',
-                'email'    => 'rendyluthfi@gmail.com',
-                'password'    => password_hash('12345', PASSWORD_BCRYPT),
+                'nama' => 'Rendy Lutfi Prabowo',
+                'email'    => 'rlp@gmail.com',
+                'password'    => md5('12345', PASSWORD_BCRYPT),
             ],
             [
                 'nama' => 'Aullya Hanan',
