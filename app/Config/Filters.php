@@ -75,7 +75,6 @@ class Filters extends BaseConfig
         [
             'dashboard',
             'dashboard/*'
-
         ]
         ]
     ];
