@@ -71,11 +71,12 @@ class Filters extends BaseConfig
      * @var array
      */
     public $filters = [
-        'isLoggedIn' => ['before' =>
-        [
-            'dashboard',
-            'dashboard/*'
-        ]
+        'isLoggedIn' => [
+            'before' =>
+            [
+                'dashboard',
+                'dashboard/*'
+            ]
         ]
     ];
-   }
+}
