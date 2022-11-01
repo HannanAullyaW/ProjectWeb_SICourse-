@@ -18,7 +18,7 @@ class Auth extends BaseController
             'title' => 'Masuk',
         ];
         if(session('id')){
-            return redirect()->to(site_url('/testimoni'));
+            return redirect()->to(site_url('/dashboard/beranda'));
         }
 
 
@@ -54,7 +54,7 @@ class Auth extends BaseController
             'title' => 'Daftar',
         ];
         if(session('id')){
-            return redirect()->to(site_url('/testimoni'));
+            return redirect()->to(site_url('/dashboard/beranda'));
         }
         return view('landingpage/daftar',$data);
     }
