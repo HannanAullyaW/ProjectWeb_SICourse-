@@ -68,8 +68,9 @@ $routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
 $routes->get('/logout', 'Auth::logout');
 
 
-$routes->get('admin/login', 'Admin::login');
+$routes->get('/admin/login', 'Admin::login');
 $routes->get('/admin/dashboard', 'Admin::dashboard');
+$routes->match(['get','post'],'/admin/uploadpengajar', 'Admin::uploadPengajar');
 $routes->get('/admin/tambahpelajaran', 'Admin::tambahpelajaran');
 $routes->get('/admin/tambahpengajar', 'Admin::tambahpengajar');
 // $routes->get('/admin', 'Admin::dashboard');
