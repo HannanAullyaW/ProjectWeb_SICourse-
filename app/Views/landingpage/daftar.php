@@ -33,28 +33,21 @@
                             <input type="password" class="form-control" name="password" id="password" required autofocus>
                         </div>
                         <table>
-                            <tr>
+                            <!-- <tr> -->
                                 <td>
                                     <div class="justify-content-center ml-5">
                                         <h6 class="text-center">Sudah Punya Akun? <a href="/masuk">Masuk</a></h6>
                                     </div>
 
                                 </td>
-                                <td>
-                                    <div class="col-10">
-
-                                    </div>
-                                </td>
-                                <td>
-                                    <div class="form-group d-flex justify-content-end mt-4 ">
-                                        <button type="submit" class="btn btn-primary submit">Daftar</button>
-    </button>
-                                    </div>
-
-                                </td>
-                            </tr>
-
+                                
                         </table>
+
+                                    <div class="form-group d-flex justify-content-center mt-4 ">
+                                        <button type="submit" class="btn btn-primary submit">Daftar<span class="fa fa-paper-plane"></span>
+                                    </button>
+                                    </div>
+
 
 
                     </form>
@@ -67,4 +60,3 @@
 </div>
 
 <?= $this->endSection(); ?>
-
