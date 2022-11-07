@@ -49,6 +49,7 @@ $routes->get('/daftar', 'Auth::register');
 $routes->post('/auth/regisProcess', 'Auth::regisProcess');
 
 $routes->get('/', 'LandingpageController::index');
+$routes->get('/beranda', 'LandingpageController::index');
 $routes->get('/masuk', 'Auth::masuk');
 $routes->get('/dashboard/beranda', 'DashboardController::index');
 $routes->get('/dashboard/pengajar', 'DashboardController::pengajar');
@@ -67,9 +68,11 @@ $routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
 $routes->get('/logout', 'Auth::logout');
 
 
-$routes->get('/admin/Login', 'Admin::index');
-$routes->get('/admin/Dashboard', 'Admin::dashboard');
-// $routes->get('/admin', 'Admin::index');
+$routes->get('admin/login', 'Admin::login');
+$routes->get('/admin/dashboard', 'Admin::dashboard');
+$routes->get('/admin/tambahpelajaran', 'Admin::tambahpelajaran');
+$routes->get('/admin/tambahpengajar', 'Admin::tambahpengajar');
+// $routes->get('/admin', 'Admin::dashboard');
 
 /*
  * --------------------------------------------------------------------

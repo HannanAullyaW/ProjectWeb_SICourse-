@@ -1,4 +1,4 @@
-<?= $this->extend('templates/template') ?>
+<?= $this->extend('admin/template') ?>
 <?= $this->section('content') ?>
 <div class="row d-flex justify-content-center mt-5">
     <div class="col-md-5">

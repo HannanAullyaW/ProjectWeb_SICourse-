@@ -13,18 +13,18 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="assets/templateweb/css/animate.css">
+    <link rel="stylesheet" href="/assets/templateweb/css/animate.css">
 
-    <link rel="stylesheet" href="assets/templateweb/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/templateweb/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/templateweb/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/templateweb/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/templateweb/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/templateweb/css/magnific-popup.css">
 
-    <link rel="stylesheet" href="assets/templateweb/css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="assets/templateweb/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="/assets/templateweb/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/assets/templateweb/css/jquery.timepicker.css">
 
 
-    <link rel="stylesheet" href="assets/templateweb/css/flaticon.css">
-    <link rel="stylesheet" href="assets/templateweb/css/style.css">
+    <link rel="stylesheet" href="/assets/templateweb/css/flaticon.css">
+    <link rel="stylesheet" href="/assets/templateweb/css/style.css">
 </head>
 
 <body>
@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 
         <div class="container">
-            <a class="navbar-brand" href="/home"><span>Course</span> Us!</a>
+            <a class="navbar-brand" href="/dashboard/beranda"><span>Course</span> Us!</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span>
                 <div class="navbar-toggler-icon"></div>
@@ -40,10 +40,10 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="/beranda" class="nav-link">Beranda</a></li>
-                    <li class="nav-item active"><a href="/testimoni" class="nav-link">Testimoni</a></li>
-                    <li class="nav-item active"><a href="/hubungikami" class="nav-link">Hubungi Kami</a></li>
-                    <li class="nav-item"><a href="/masuk" class="nav-link btn btn-primary">Masuk</a></li>
+                    <li class="nav-item active"><a href="/dashboard/beranda" class="nav-link">Beranda</a></li>
+                    <li class="nav-item"><a href="/dashboard/pelajaran" class="nav-link">Pelajaran</a></li>
+                    <li class="nav-item"><a href="/dashboard/pengajar" class="nav-link">Pengajar</a></li>
+                    <li class="nav-item" class="ml-4"><a href="/logout" class="nav-link btn btn-warning">Keluar</a></li>
                 </ul>
             </div>
             <!-- </div> -->
@@ -55,7 +55,6 @@
     <?= $this->renderSection('content'); ?>
 
 
-    <!-- Footer -->
     <!-- Footer -->
     <footer class="ftco-footer ftco-no-pt mb-1">
         <div class="container">
