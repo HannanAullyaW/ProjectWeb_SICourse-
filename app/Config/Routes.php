@@ -67,6 +67,7 @@ $routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
 $routes->get('/logout', 'Auth::logout');
 
 
+$routes->get('/admin/Login', 'Admin::admin');
 $routes->get('/admin', 'Admin::index');
 
 /*
