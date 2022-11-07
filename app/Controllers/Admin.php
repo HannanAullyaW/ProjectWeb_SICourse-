@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 class Admin extends BaseController
 {
+<<<<<<< HEAD
     
     public function __construct()
     {
@@ -26,4 +27,10 @@ class Admin extends BaseController
         
     }
     
+=======
+    public function admin()
+    {
+        return view('admin/adminLogin');
+    }
+>>>>>>> 3fa491a1c7d37ba2d43c7dcbe0a8f9567bca89c4
 }
