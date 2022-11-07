@@ -1,9 +1,23 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\UserModel;
 
 class Auth extends BaseController
 {
+    public function __construct()
+    {
+        //membuat user model untuk konek ke database 
+        $this->userModel = new UserModel();
+        
+        //meload validation
+        $this->validation = \Config\Services::validation();
+        
+        //meload session
+        $this->session = \Config\Services::session();
+        
+    }
+
     public function index()
     {
         
@@ -11,9 +25,17 @@ class Auth extends BaseController
 
     public function masuk()
     {
+
+
+
         $data = [
             'title' => 'Masuk',
         ];
+        if(session('id')){
+            return redirect()->to(site_url('/dashboard/beranda'));
+        }
+
+
         return view('landingpage/masuk', $data);
     }
 
@@ -41,12 +63,13 @@ class Auth extends BaseController
 		session()->destroy();
 		return redirect()->to(base_url('/'));
 	}
+    
     public function register(){
         $data = [
             'title' => 'Daftar',
         ];
         if(session('id')){
-            return redirect()->to(site_url('dashboard/beranda'));
+            return redirect()->to(site_url('/dashboard/beranda'));
         }
         return view('landingpage/daftar',$data);
     }

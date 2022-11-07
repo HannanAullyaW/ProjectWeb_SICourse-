@@ -8,6 +8,7 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\LoginFilter;
 
 class Filters extends BaseConfig
 {
@@ -69,5 +70,13 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $filters = [];
+    public $filters = [
+        'isLoggedIn' => [
+            'before' =>
+            [
+                'dashboard',
+                'dashboard/*'
+            ]
+        ]
+    ];
 }

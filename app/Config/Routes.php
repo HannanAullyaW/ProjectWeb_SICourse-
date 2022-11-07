@@ -61,11 +61,14 @@ $routes->get('/template', 'Home::template');
 $routes->get('/dashboard/pelajaran', 'BimbelController::pelajaran');
 $routes->get('/dashboard/pengajar', 'BimbelController::pengajar');
 $routes->match(['get','post'],'/uploadpengajar', 'DashboardController::uploadPengajar');
+$routes->match(['get','post'],'/uploadpelajaran', 'DashboardController::uploadPelajaran');
 $routes->get('/masuk', 'Auth::masuk');
 $routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
 $routes->get('/logout', 'Auth::logout');
 
 
+$routes->get('/admin/Login', 'Admin::admin');
+$routes->get('/admin', 'Admin::index');
 
 /*
  * --------------------------------------------------------------------
