@@ -14,7 +14,7 @@ class Admin extends BaseController
     {
         //cek apakah ada session bernama isLogin
         if(!$this->session->has('isLogin')){
-            return redirect()->to('/auth/login');
+            return redirect()->to('/masuk');
         }
         
         //cek role dari session
