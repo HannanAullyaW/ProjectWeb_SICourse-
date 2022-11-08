@@ -15,7 +15,7 @@
     <div class="container">
         <br><br>
         <div class="col-6"> -->
-
+<h3><span>TAMBAH PELAJARAN</span></h3>
             <?php if (session()->has('success')) : ?>
                 <p class="text-success"><?= session()->getFlashdata('success'); ?></p>
             <?php endif; ?>
@@ -41,7 +41,7 @@
                                     <?php endif; ?>
                                 </div>
                             </div>
-                            <button class="btn btn-success" type="submit">SIMPAN DATA</button>
+                            <button class="btn btn-success" type="submit"><i class="bi bi-plus-square-fill mr-1"></i> TAMBAH DATA</button>
                         </form>
                     </div>
                 </div>

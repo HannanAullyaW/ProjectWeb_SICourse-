@@ -18,6 +18,10 @@
     <!-- Custom styles for this template-->
     <link href="/assets/admin/css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!-- icon source -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
 </head>
 
 <body id="page-top">

@@ -8,6 +8,7 @@
             <div class="col-md-5 mt-5 order-md-last">
                 <div class="login-wrap p-5 p-md-5  mt-5">
                     <h3 class="mb-4">Ayo Mulai Belajar!</h3>
+                    
                     <?php if (session()->getFlashdata('error')) : ?>
                         <div class="alert alert-danger alert-dismissible show fade">
                             <div class="alert-body">
