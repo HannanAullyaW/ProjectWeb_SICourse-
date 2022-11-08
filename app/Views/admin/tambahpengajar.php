@@ -41,23 +41,16 @@
                     <input type="text" value="<?= old('info_pengajar'); ?>" name="info_pengajar" id="info_pengajar" class="form-control" <?= $validation && isset($validation['info_pengajar']) ? 'is-invalid' : '' ?>>
                 </div>
 
-                <div class="">
-    <input type="radio"  id="customControlValidation3" name="radio-stacked" required>
-    <label class="custom-control-label" for="customControlValidation3">Or toggle this other custom radio</label>
-    <div class="invalid-feedback">More example invalid feedback text</div>
-  </div>
-
-
-                <div class="custom-control custom-radio mb-3">
-                    <label class="custom-control-input"  for="">Pilih file gambar</label>
+                <div class="form-group">
                     <div class="custom-file">
-                        <input  id="customControlValidation3" type="file" name="gambar" id="gambar"  <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
+                        <input type="file" name="gambar" id="gambar" class="custom-file-input" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
+                        <label class="custom-file-label" for="customFile">Choose file</label>
                         <?php if ($validation && isset($validation['gambar'])) : ?>
                             <div class="invalid-feedback"><?= $validation['gambar']; ?></div>
                         <?php endif; ?>
                     </div>
                 </div>
-                <button class="btn btn-success" type="submit"><i class="bi bi-plus-square-fill mr-1"></i> TAMBAH DATA</button>
+                <button class="btn btn-success" type="submit"><i class="bi bi-plus-square-fill mr-1"></i> SIMPAN DATA</button>
             </form>
         </div>
     </div>
