@@ -16,37 +16,43 @@
         <br><br>
         <div class="col-6"> -->
 <h3><span>TAMBAH PELAJARAN</span></h3>
-            <?php if (session()->has('success')) : ?>
-                <p class="text-success"><?= session()->getFlashdata('success'); ?></p>
-            <?php endif; ?>
-            <?php $validation = session()->getFlashdata('validation'); ?>
-            <div class="card">
-                <div class="card-header">
-                    <div class="card-body">
-                        <form action="<?= current_url(); ?>" method="POST" enctype="multipart/form-data">
-                            <div class="form-group">
-                                <label for="">Judul Pelajaran</label>
-                                <input type="text" value="<?= old('nama_pengajar'); ?>" name="judul_pelajaran" id="judul_pelajaran" class="form-control" <?= $validation && isset($validation['judul_pelajaran']) ? 'is-invalid' : '' ?>>
-                                <label for="">Nama Pengajar</label>
-                                <input type="text" value="<?= old('bidang_pengajar'); ?>" name="nama_pengajar" id="nama_pengajar" class="form-control" <?= $validation && isset($validation['nama_pengajar']) ? 'is-invalid' : '' ?>>
-                                <label for="">Kategori Pelajaran</label>
-                                <input type="text" value="<?= old('kategori_pelajaran'); ?>" name="kategori_pelajaran" id="kategori_pelajaran" class="form-control" <?= $validation && isset($validation['kategori_pelajaran']) ? 'is-invalid' : '' ?>>
-                            </div>
-                            <div class="form-group">
-                                <label for="">Pilih file gambar</label>
-                                <div class="custom-file">
-                                    <input type="file" name="gambar" id="gambar" class="custom-file-input" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
-                                    <?php if ($validation && isset($validation['gambar'])) : ?>
-                                        <div class="invalid-feedback"><?= $validation['gambar']; ?></div>
-                                    <?php endif; ?>
-                                </div>
-                            </div>
-                            <button class="btn btn-success" type="submit"><i class="bi bi-plus-square-fill mr-1"></i> TAMBAH DATA</button>
-                        </form>
+<?php if (session()->has('success')) : ?>
+    <p class="text-success"><?= session()->getFlashdata('success'); ?></p>
+<?php endif; ?>
+<?php $validation = session()->getFlashdata('validation'); ?>
+<div class="card">
+    <div class="card-header">
+        <div class="card-body">
+            <form action="<?= current_url(); ?>" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="">Judul Pelajaran</label>
+                    <input type="text" value="<?= old('nama_pengajar'); ?>" name="judul_pelajaran" id="judul_pelajaran" class="form-control" <?= $validation && isset($validation['judul_pelajaran']) ? 'is-invalid' : '' ?>>
+                    <label for="">Nama Pengajar</label>
+                    <input type="text" value="<?= old('bidang_pengajar'); ?>" name="nama_pengajar" id="nama_pengajar" class="form-control" <?= $validation && isset($validation['nama_pengajar']) ? 'is-invalid' : '' ?>>
+                    <div class="form-group">
+                        <label for="inputState">Kategori Pelajaran</label>
+                        <select id="inputState" name="kategori_pelajaran" id="kategori_pelajaran" class="form-control" <?= $validation && isset($validation['kategori_pelajaran']) ? 'is-invalid' : '' ?>>
+                            <option selected>TIU</option>
+                            <option selected>TKP</option>
+                            <option selected>TWK</option>
+                        </select>
                     </div>
                 </div>
-            </div>
-        <!-- </div>
+                <div class="form-group " style="width:300px;">
+                    <div class="custom-file">
+                        <label class="custom-file-label" for="customFile">Pilih file gambar</label>
+                        <input type="file" name="gambar" id="gambar" class="custom-file-input" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
+                        <?php if ($validation && isset($validation['gambar'])) : ?>
+                            <div class="invalid-feedback"><?= $validation['gambar']; ?></div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+                <button class="btn btn-success" type="submit"><i class="bi bi-plus-square-fill mr-1"></i> TAMBAH DATA</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- </div>
     </div>
 
 

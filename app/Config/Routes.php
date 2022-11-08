@@ -57,8 +57,9 @@ $routes->get('/hubungikami', 'LandingpageController::hubungikami');
 $routes->get('/dashboard/pelajaran', 'DashboardController::pelajaran');
 $routes->get('/dashboard/pengajar', 'DashboardController::pengajar');
 $routes->get('/dashboard/beranda', 'DashboardController::beranda');
-// $routes->get('/home', 'BimbelController::index');
 
+
+$routes->get('/admin', 'Admin::login');
 $routes->get('/admin/login', 'Admin::login');
 $routes->get('/admin/dashboard', 'Admin::dashboard');
 $routes->match(['get', 'post'], '/admin/tambahpengajar', 'Admin::uploadPengajar');

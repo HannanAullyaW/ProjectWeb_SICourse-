@@ -5,10 +5,10 @@ namespace App\Controllers;
 class Admin extends BaseController
 {
 
-    public function __construct()
-    {
-        $this->session = session();
-    }
+    // public function __construct()
+    // {
+    //     $this->session = session();
+    // }
 
     public function login()
     {

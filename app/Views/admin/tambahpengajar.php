@@ -47,10 +47,10 @@
                                 <label for="">Info Pengajar</label>
                                 <input type="text" value="<?= old('info_pengajar'); ?>" name="info_pengajar" id="info_pengajar" class="form-control" <?= $validation && isset($validation['info_pengajar']) ? 'is-invalid' : '' ?>>
                             </div>
-                            <div class="form-group">
-                                <label for="">Pilih file gambar</label>
+                            <div class="form-group " style="width:300px;">
                                 <div class="custom-file">
-                                    <input type="file" name="gambar" id="gambar" class="custom-file-input" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
+                                    <label class="custom-file-label" for="customFile">Pilih file gambar</label>
+                                    <input  type="file" name="gambar" id="gambar" class="custom-file-input" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
                                     <?php if ($validation && isset($validation['gambar'])) : ?>
                                         <div class="invalid-feedback"><?= $validation['gambar']; ?></div>
                                     <?php endif; ?>

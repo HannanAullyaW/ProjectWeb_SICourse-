@@ -5,18 +5,7 @@ use App\Models\UserModel;
 
 class Auth extends BaseController
 {
-    public function __construct()
-    {
-        //membuat user model untuk konek ke database 
-        $this->userModel = new UserModel();
-        
-        //meload validation
-        $this->validation = \Config\Services::validation();
-        
-        //meload session
-        $this->session = \Config\Services::session();
-        
-    }
+    
 
     public function index()
     {
