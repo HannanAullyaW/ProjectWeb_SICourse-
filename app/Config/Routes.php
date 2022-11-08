@@ -43,39 +43,27 @@ $routes->get('create-db', function () {
 });
 
 
-// $routes->get('/register', 'Auth::register');
 $routes->get('/daftar', 'Auth::register');
-// $routes->match(['get', 'post'], '/auth/regisProcess', 'Auth::regisProcess');
+$routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
+$routes->get('/masuk', 'Auth::masuk');
 $routes->post('/auth/regisProcess', 'Auth::regisProcess');
+$routes->get('/logout', 'Auth::logout');
 
 $routes->get('/', 'LandingpageController::index');
 $routes->get('/beranda', 'LandingpageController::index');
-$routes->get('/masuk', 'Auth::masuk');
-$routes->get('/dashboard/beranda', 'DashboardController::index');
-$routes->get('/dashboard/pengajar', 'DashboardController::pengajar');
 $routes->get('/testimoni', 'LandingpageController::testimoni');
 $routes->get('/hubungikami', 'LandingpageController::hubungikami');
 
-
-$routes->get('/home', 'BimbelController::index');
-$routes->get('/template', 'Home::template');
-$routes->get('/dashboard/pelajaran', 'BimbelController::pelajaran');
-$routes->get('/dashboard/pengajar', 'BimbelController::pengajar');
-// $routes->match(['get','post'],'/uploadpengajar', 'DashboardController::uploadPengajar');
-// $routes->match(['get','post'],'/uploadpelajaran', 'DashboardController::uploadPelajaran');
-
-$routes->get('/masuk', 'Auth::masuk');
-$routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
-$routes->get('/logout', 'Auth::logout');
-
+$routes->get('/dashboard/pelajaran', 'DashboardController::pelajaran');
+$routes->get('/dashboard/pengajar', 'DashboardController::pengajar');
+$routes->get('/dashboard/beranda', 'DashboardController::beranda');
+// $routes->get('/home', 'BimbelController::index');
 
 $routes->get('/admin/login', 'Admin::login');
 $routes->get('/admin/dashboard', 'Admin::dashboard');
-$routes->match(['get','post'],'/admin/uploadpengajar', 'Admin::uploadPengajar');
-$routes->match(['get','post'],'/admin/tambahpelajaran', 'Admin::tambahPelajaran');
-$routes->get('/admin/tambahpelajaran', 'Admin::tambahpelajaran');
-$routes->get('/admin/tambahpengajar', 'Admin::tambahpengajar');
-// $routes->get('/admin', 'Admin::dashboard');
+$routes->match(['get', 'post'], '/admin/tambahpengajar', 'Admin::uploadPengajar');
+$routes->match(['get', 'post'], '/admin/tambahpelajaran', 'Admin::tambahPelajaran');
+
 
 /*
  * --------------------------------------------------------------------

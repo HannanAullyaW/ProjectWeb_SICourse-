@@ -43,15 +43,6 @@ class BimbelController extends BaseController
         return view('landingpages/register', $data);
     }
 
-    public function pelajaran()
-    {
-        $data = [
-            'title' => 'Pelajaran',
-            'pelajaran' => $this->db->table('pelajaran')->get()->getResult()
-        ];
-        return view('dashboard/pelajaran', $data);
-    }
-    
     
     
 }
