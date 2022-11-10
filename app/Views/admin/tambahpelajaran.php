@@ -29,25 +29,23 @@
                     <input type="text" value="<?= old('nama_pengajar'); ?>" name="judul_pelajaran" id="judul_pelajaran" class="form-control" <?= $validation && isset($validation['judul_pelajaran']) ? 'is-invalid' : '' ?>>
                     <label for="">Nama Pengajar</label>
                     <input type="text" value="<?= old('bidang_pengajar'); ?>" name="nama_pengajar" id="nama_pengajar" class="form-control" <?= $validation && isset($validation['nama_pengajar']) ? 'is-invalid' : '' ?>>
-                    <div class="form-group">
-                        <label for="inputState">Kategori Pelajaran</label>
-                        <select id="inputState" name="kategori_pelajaran" id="kategori_pelajaran" class="form-control" <?= $validation && isset($validation['kategori_pelajaran']) ? 'is-invalid' : '' ?>>
-                            <option selected>TIU</option>
-                            <option selected>TKP</option>
-                            <option selected>TWK</option>
-                        </select>
-                    </div>
+                    <label for="inputState">Kategori Pelajaran</label>
+                    <select id="inputState" name="kategori_pelajaran" id="kategori_pelajaran" class="form-control" <?= $validation && isset($validation['kategori_pelajaran']) ? 'is-invalid' : '' ?>>
+                        <option selected>TIU</option>
+                        <option selected>TKP</option>
+                        <option selected>TWK</option>
+                    </select>
                 </div>
-                <div class="form-group " style="width:300px;">
+                <div class="form-group">
+                    <label for="">Pilih file gambar</label>
                     <div class="custom-file">
-                        <label class="custom-file-label" for="customFile">Pilih file gambar</label>
-                        <input type="file" name="gambar" id="gambar" class="custom-file-input" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
+                        <input type="file" name="gambar" id="gambar" class="form-control" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
                         <?php if ($validation && isset($validation['gambar'])) : ?>
                             <div class="invalid-feedback"><?= $validation['gambar']; ?></div>
                         <?php endif; ?>
                     </div>
                 </div>
-                <button class="btn btn-success" type="submit"><i class="bi bi-plus-square-fill mr-1"></i> TAMBAH DATA</button>
+                <button class="btn btn-success" type="submit">SIMPAN DATA</button>
             </form>
         </div>
     </div>
