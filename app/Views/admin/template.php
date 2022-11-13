@@ -284,13 +284,13 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    
+
 
 
                     <!-- Page Heading -->
 
                     <!-- Content Row -->
-<?= $this->renderSection('content'); ?>
+                    <?= $this->renderSection('content'); ?>
 
                 </div>
                 <!-- /.container-fluid -->
@@ -302,7 +302,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Hua Web Team 2022</span>
                     </div>
                 </div>
             </footer>
