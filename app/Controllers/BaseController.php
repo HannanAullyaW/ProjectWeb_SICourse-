@@ -56,4 +56,6 @@ abstract class BaseController extends Controller
     {
         $this->session = session();
     }
+
+
 }

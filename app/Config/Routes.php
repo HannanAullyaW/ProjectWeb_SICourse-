@@ -42,7 +42,6 @@ $routes->get('create-db', function () {
     }
 });
 
-
 $routes->get('/daftar', 'Auth::register');
 $routes->post('/auth/prosesMasuk', 'Auth::prosesMasuk');
 $routes->get('/masuk', 'Auth::masuk');

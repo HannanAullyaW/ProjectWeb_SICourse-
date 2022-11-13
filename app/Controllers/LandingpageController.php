@@ -6,6 +6,8 @@ use App\Controllers\BaseController;
 
 class LandingpageController extends BaseController
 {
+    
+
     public function index()
     {
         $data = [

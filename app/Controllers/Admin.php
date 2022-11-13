@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+
 use App\Models\PelajaranModel;
 use App\Models\PengajarModel;
 use App\Models\UserModel;
@@ -11,9 +12,9 @@ class Admin extends BaseController
     public function __construct()
     {
         $this->request = service("request");
-        $this->PelajaranModel = new PelajaranModel(); 
-        $this->PengajarModel = new PengajarModel(); 
-        $this->UserModel = new UserModel(); 
+        $this->PelajaranModel = new PelajaranModel();
+        $this->PengajarModel = new PengajarModel();
+        $this->UserModel = new UserModel();
     }
 
 
@@ -34,10 +35,10 @@ class Admin extends BaseController
 
     public function dashboard()
     {
-        $dataPelajaran = $this->PelajaranModel->get()->resultID->num_rows; 
-        $dataPengajar = $this->PengajarModel->get()->resultID->num_rows; 
-        $dataUser = $this->UserModel->get()->resultID->num_rows; 
-        
+        $dataPelajaran = $this->PelajaranModel->get()->resultID->num_rows;
+        $dataPengajar = $this->PengajarModel->get()->resultID->num_rows;
+        $dataUser = $this->UserModel->get()->resultID->num_rows;
+
         $data = [
             'title' => 'Dashboard',
             'dataPelajaran' => $dataPelajaran,
@@ -45,7 +46,7 @@ class Admin extends BaseController
             'dataUser' => $dataUser,
         ];
 
-        return view('admin/dashboard',$data);
+        return view('admin/dashboard', $data);
     }
 
     public function tambahpengajar()
