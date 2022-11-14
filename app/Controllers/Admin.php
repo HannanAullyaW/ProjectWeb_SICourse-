@@ -33,6 +33,10 @@ class Admin extends BaseController
         return view('admin/login');
     }
 
+    public function register(){
+        return view('admin/register');
+    }
+
     public function dashboard()
     {
         $dataPelajaran = $this->PelajaranModel->get()->resultID->num_rows;

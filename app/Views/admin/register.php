@@ -37,7 +37,7 @@
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Admin Login</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Admin Register</h1>
                                     </div>
                                     <form class="user">
                                         <div class="form-group">
@@ -57,18 +57,18 @@
                                         </a>
                                         <hr>
                                         <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Masuk dengan akun Google
+                                            <i class="fab fa-google fa-fw"></i> Daftar dengan akun Google
                                         </a>
                                         <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Masuk dengan akun Facebook
+                                            <i class="fab fa-facebook-f fa-fw"></i> Daftar dengan akun Facebook
                                         </a>
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Lupa Katasandi?</a>
+                                        <a class="small" href="forgot-password.html">Sudah Buat Akun?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="/register">Buat Akun!</a>
+                                        <a class="small" href="Login.php">Masuk!</a>
                                     </div>
                                 </div>
                             </div>

@@ -60,6 +60,7 @@ $routes->get('/dashboard/beranda', 'DashboardController::beranda');
 
 $routes->get('/admin', 'Admin::login');
 $routes->get('/admin/login', 'Admin::login');
+$routes->get('/admin', 'Admin::register');
 $routes->get('/admin/dashboard', 'Admin::dashboard');
 $routes->match(['get', 'post'], '/admin/tambahpengajar', 'Admin::uploadPengajar');
 $routes->match(['get', 'post'], '/admin/tambahpelajaran', 'Admin::tambahPelajaran');

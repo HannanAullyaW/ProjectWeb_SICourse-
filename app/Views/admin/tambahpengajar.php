@@ -84,7 +84,7 @@
                                 <div class="d-flex">
                                     <!-- <a class="btn btn-warning mr-3" href="/edit_pemasukan/a">Edit</a>
                                     <form action="/delete_pemasukan/a" method="post"> -->
-                                    <a class="btn btn-warning mr-3" href="#"><i class="bi bi-pencil-square"></i></a>
+                                    <a class="btn btn-warning mr-3" href="/ubahpengajar"><i class="bi bi-pencil-square"></i></a>
                                     <form action="#" method="post">
                                         <input type="hidden" name="_method" value="DELETE">
                                         <button type="submit" class="btn btn-danger"><i class="bi bi-trash-fill"></i></button>
