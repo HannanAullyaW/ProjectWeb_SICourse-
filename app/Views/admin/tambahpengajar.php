@@ -1,7 +1,7 @@
 <?= $this->extend('admin/template') ?>
 <?= $this->section('content') ?>
 
-<h3><span>TAMBAH PENGAJAR</span></h3>
+<h3><span>PENGAJAR</span></h3>
 <?php if (session()->has('success')) : ?>
     <p class="text-success"><?= session()->getFlashdata('success'); ?></p>
 <?php endif; ?>
@@ -9,6 +9,7 @@
 
 <div class="card">
     <div class="card-header">
+    <h6 class="m-0 font-weight-bold text-primary">Tambah Pengajar</h6>
         <div class="card-body">
             <form action="<?= current_url(); ?>" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
@@ -49,6 +50,7 @@
         <h6 class="m-0 font-weight-bold text-primary">Data Pengajar</h6>
     </div>
     <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+        <hr>
         <div class="input-group">
             <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
             <div class="input-group-append">
