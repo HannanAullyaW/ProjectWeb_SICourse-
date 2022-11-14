@@ -224,6 +224,38 @@ class Admin extends BaseController
         return redirect()->to('/admin/tambahpengajar');
     }
 
+    public function editpelajaran($id = null)
+    {
+        if ($id != null) {
+            $query = $this->db->table('pelajaran')->getWhere(['id_pelajaran' => $id]);
+            if ($query->resultID->num_rows > 0) {
+                $data = [
+                    'dataPelajaran' => $this->PelajaranModel->findAll(),
+                    'edit' => $query->getRow()
+                ];
+                return view('admin/ubahpelajaran', $data);
+            } else {
+                throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+            }
+        } else {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound();
+        }
+    }
+
+    public function updatepelajaran($id)
+    {
+        $edit = new PelajaranModel();
+
+        $edit->update($id, [
+            'judul_pelajaran' => $this->request->getVar('judul_pelajaran'),
+            'nama_pengajar' => $this->request->getVar('nama_pengajar'),
+            'kategori_pelajaran' => $this->request->getVar('kategori_pelajaran'),
+            'gambar' => $this->request->getVar('gambar'),
+        ]);
+        session()->setFlashdata('success', 'Data berhasil diubah');
+        return redirect()->to('/admin/tambahpelajaran');
+    }
+
    
 
     public function hapuspelajaran($id)
