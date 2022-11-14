@@ -29,9 +29,35 @@ class Admin extends BaseController
         // if ($this->session->get('role') != 1) {
         //     return redirect()->to('/user');
         // }
+        // $data = [
+        //     'title' => 'Masuk',
+        // ];
+        // if(session('id')){
+        //     return redirect()->to(site_url('admin/Dashboard'));
+        // }
 
         return view('admin/login');
     }
+    
+    public function regisAdmin(){
+
+        // $post = $this->request->getPost();
+        // $query = $this->db->table('user')->getWhere(['email' => $post['email']]);
+        // $users = $query->getRow();
+        // if ($users) {
+        //     if(password_verify($post['password'],$users->password)){
+        //         $params=['id'=>$users->id];
+        //         session()->set($params);
+        //         return redirect()->to(site_url('admin/Dashboard'));
+                
+        //     } else{
+        //         return redirect()->back()->with('error', 'Password Salah!');
+        //     }
+        // } else {
+        //     return redirect()->back()->with('error', 'Email tidak ditemukan');
+        // }
+    }
+
 
     public function register()
     {
