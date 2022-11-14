@@ -15,8 +15,6 @@ class Auth extends BaseController
     public function masuk()
     {
 
-
-
         $data = [
             'title' => 'Masuk',
         ];
