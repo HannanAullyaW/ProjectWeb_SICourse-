@@ -62,8 +62,11 @@ $routes->get('/admin', 'Admin::login');
 $routes->get('/admin/login', 'Admin::login');
 $routes->get('/admin', 'Admin::register');
 $routes->get('/admin/dashboard', 'Admin::dashboard');
+$routes->get('/admin/editpengajar/(:num)', 'Admin::editpengajar/$1');
 $routes->match(['get', 'post'], '/admin/tambahpengajar', 'Admin::uploadPengajar');
 $routes->match(['get', 'post'], '/admin/tambahpelajaran', 'Admin::tambahPelajaran');
+$routes->delete('/admin/hapuspengajar/(:num)', 'Admin::hapuspengajar/$1');
+$routes->delete('/admin/hapuspelajaran/(:num)', 'Admin::hapuspelajaran/$1');
 
 
 /*

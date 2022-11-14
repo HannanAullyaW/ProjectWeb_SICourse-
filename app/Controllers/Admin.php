@@ -33,7 +33,8 @@ class Admin extends BaseController
         return view('admin/login');
     }
 
-    public function register(){
+    public function register()
+    {
         return view('admin/register');
     }
 
@@ -152,5 +153,41 @@ class Admin extends BaseController
         $data['gambar'] = $this->db->table('pelajaran')->get()->getResult();
 
         return view('admin/tambahpelajaran', $data);
+    }
+
+    public function hapuspengajar($id)
+    {
+        $supplier = new PengajarModel();
+
+        $supplier->delete($id);
+
+        session()->setFlashdata('success', 'Data berhasil dihapus');
+
+        return redirect()->to('/admin/tambahpengajar');
+    }
+
+    public function editpengajar($id)
+    {
+        $edit = new PengajarModel();
+
+        $edit->update($id, [
+            'nama_pengajar' => $this->request->getVar('nama_pengajar'),
+            'bidang_pengajar' => $this->request->getVar('bidang_pengajar'),
+            'info_pengajar' => $this->request->getVar('info_pengajar'),
+            'gambar' => $this->request->getVar('gambar'),
+        ]);
+        session()->setFlashdata('success', 'Data berhasil diubah');
+        return view('admin/ubahpengajar');
+    }
+
+    public function hapuspelajaran($id)
+    {
+        $supplier = new PelajaranModel();
+
+        $supplier->delete($id);
+
+        session()->setFlashdata('success', 'Data berhasil dihapus');
+
+        return redirect()->to('/admin/tambahpelajaran');
     }
 }
