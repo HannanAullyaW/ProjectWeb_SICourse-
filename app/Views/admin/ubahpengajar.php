@@ -10,14 +10,14 @@
 <div class="card">
     <div class="card-header">
         <div class="card-body">
-            <form action="<?= current_url(); ?>" method="POST" enctype="multipart/form-data">
+            <form action="<?= '/admin/updatepengajar/' . $edit->id_pengajar; ?>" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="">Nama Pengajar</label>
-                    <input type="text" value="<?= old('nama_pengajar'); ?>" name="nama_pengajar" id="nama_pengajar" class="form-control" <?= $validation && isset($validation['nama_pengajar']) ? 'is-invalid' : '' ?>>
+                    <input type="text" value="<?= $edit->nama_pengajar ?>" name="nama_pengajar" id="nama_pengajar" class="form-control" <?= $validation && isset($validation['nama_pengajar']) ? 'is-invalid' : '' ?>>
                     <label for="">Bidang Pengajar</label>
-                    <input type="text" value="<?= old('bidang_pengajar'); ?>" name="bidang_pengajar" id="bidang_pengajar" class="form-control" <?= $validation && isset($validation['bidang_pengajar']) ? 'is-invalid' : '' ?>>
+                    <input type="text" value="<?= $edit->bidang_pengajar ?>" name="bidang_pengajar" id="bidang_pengajar" class="form-control" <?= $validation && isset($validation['bidang_pengajar']) ? 'is-invalid' : '' ?>>
                     <label for="">Info Pengajar</label>
-                    <input type="text" value="<?= old('info_pengajar'); ?>" name="info_pengajar" id="info_pengajar" class="form-control" <?= $validation && isset($validation['info_pengajar']) ? 'is-invalid' : '' ?>>
+                    <input type="text" value="<?= $edit->info_pengajar ?>" name="info_pengajar" id="info_pengajar" class="form-control" <?= $validation && isset($validation['info_pengajar']) ? 'is-invalid' : '' ?>>
                 </div>
                 <div class="form-group">
                     <label for="">Pilih file gambar</label>

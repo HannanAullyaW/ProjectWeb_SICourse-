@@ -49,7 +49,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="dashboard">
+                <a class="nav-link" href="<?= site_url('/admin/dashboard'); ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -64,14 +64,14 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="tambahpengajar">
+                <a class="nav-link collapsed" href="<?= site_url('/admin/tambahpengajar'); ?>">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pengajar</span>
                 </a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="tambahpelajaran">
+                <a class="nav-link collapsed" href="<?= site_url('/admin/tambahpelajaran'); ?>">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pelajaran</span>
                 </a>
