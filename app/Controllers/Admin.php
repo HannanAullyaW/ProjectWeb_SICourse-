@@ -80,6 +80,13 @@ class Admin extends BaseController
         return view('admin/dashboard', $data);
     }
 
+    public function listpengajar()
+    {
+        $data['gambar'] = $this->db->table('pengajar')->get()->getResult();
+
+        return view('admin/listpengajar', $data);
+    }
+
     public function tambahpengajar()
     {
         $data = [
@@ -133,6 +140,13 @@ class Admin extends BaseController
         $data['gambar'] = $this->db->table('pengajar')->get()->getResult();
 
         return view('admin/tambahPengajar', $data);
+    }
+
+    public function listpelajaran()
+    {
+        $data['gambar'] = $this->db->table('pelajaran')->get()->getResult();
+
+        return view('admin/listpelajaran', $data);
     }
 
     public function tambahpelajaran()
@@ -268,4 +282,6 @@ class Admin extends BaseController
 
         return redirect()->to('/admin/tambahpelajaran');
     }
+
+    
 }

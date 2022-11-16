@@ -64,17 +64,35 @@
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="<?= site_url('/admin/tambahpengajar'); ?>">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePengajar"
+                    aria-expanded="true" aria-controls="collapsePengajar">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pengajar</span>
                 </a>
+                <div id="collapsePengajar" class="collapse" aria-labelledby="headingPengajar"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Dropdown Pengajar</h6>
+                        <a class="collapse-item" href="<?= site_url('/admin/tambahpengajar'); ?>">Tambah Pengajar</a>
+                        <a class="collapse-item" href="<?= site_url('/admin/listpengajar'); ?>">List Pengajar</a>
+                    </div>
+                </div>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link collapsed" href="<?= site_url('/admin/tambahpelajaran'); ?>">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsepelajaran"
+                    aria-expanded="true" aria-controls="collapsepelajaran">
                     <i class="fas fa-fw fa-folder"></i>
                     <span>Pelajaran</span>
                 </a>
+                <div id="collapsepelajaran" class="collapse" aria-labelledby="headingpelajaran"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Dropdown Pelajaran</h6>
+                        <a class="collapse-item" href="<?= site_url('/admin/tambahpelajaran'); ?>">Tambah Pelajaran</a>
+                        <a class="collapse-item" href="<?= site_url('/admin/listpelajaran'); ?>">List Pelajaran</a>
+                    </div>
+                </div>
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">

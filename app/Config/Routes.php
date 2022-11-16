@@ -62,6 +62,8 @@ $routes->get('/admin', 'Admin::login');
 $routes->get('/admin/login', 'Admin::login');
 $routes->get('/admin', 'Admin::register');
 $routes->get('/admin/dashboard', 'Admin::dashboard');
+$routes->get('/admin/listpengajar', 'Admin::listpengajar');
+$routes->get('/admin/listpelajaran', 'Admin::listpelajaran');
 $routes->get('/admin/editpelajaran/(:num)', 'Admin::editpelajaran/$1');
 $routes->get('/admin/editpengajar/(:num)', 'Admin::editpengajar/$1');
 $routes->post('/admin/updatepengajar/(:num)', 'Admin::updatepengajar/$1');
