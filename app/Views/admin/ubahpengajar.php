@@ -18,15 +18,8 @@
                     <input type="text" value="<?= $edit->bidang_pengajar ?>" name="bidang_pengajar" id="bidang_pengajar" class="form-control" <?= $validation && isset($validation['bidang_pengajar']) ? 'is-invalid' : '' ?>>
                     <label for="">Info Pengajar</label>
                     <input type="text" value="<?= $edit->info_pengajar ?>" name="info_pengajar" id="info_pengajar" class="form-control" <?= $validation && isset($validation['info_pengajar']) ? 'is-invalid' : '' ?>>
-                </div>
-                <div class="form-group">
                     <label for="">Pilih file gambar</label>
-                    <div class="custom-file">
-                        <input type="file" name="gambar" id="gambar" class="form-control" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
-                        <?php if ($validation && isset($validation['gambar'])) : ?>
-                            <div class="invalid-feedback"><?= $validation['gambar']; ?></div>
-                        <?php endif; ?>
-                    </div>
+                    <input type="text" value="<?= $edit->gambar ?>"  class="form-control" disabled>
                 </div>
                 <button class="btn btn-success" type="submit">SIMPAN PERUBAHAN</button>
             </form>
