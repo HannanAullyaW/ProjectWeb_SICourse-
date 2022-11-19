@@ -157,8 +157,13 @@ class Admin extends BaseController
 
                     'gambar' => [
                         'label' => 'Gambar',
-                        'rules' => 'uploaded[gambar]|is_image[gambar]|max_size[gambar,1024]'
+                        'rules' => 'uploaded[gambar]'
                     ],
+                    'file' => [
+                        'label' => 'File',
+                        'rules' => 'uploaded[file]'
+                    ],
+ 
                     'judul_pelajaran' => [
                         'label' => 'Nama pelajaran',
                         'rules' => 'required'
@@ -174,15 +179,19 @@ class Admin extends BaseController
                 ];
 
             if ($this->validate($rules)) {
+                $file = $this->request->getFile('file');
                 $gambar = $this->request->getFile('gambar');
-                $fileName = time() . $gambar->getClientName();
-                $gambar->move('uploads', $fileName);
+                $fileName = time() . $file->getClientName();
+                $fileName2 = time() . $gambar->getClientName();
+                $file->move('filepelajaran',$fileName);
+                $gambar->move('uploads',$fileName2);
 
                 $this->db->table('pelajaran')->insert([
                     'judul_pelajaran' => $this->request->getPost('judul_pelajaran'),
                     'nama_pengajar' => $this->request->getPost('nama_pengajar'),
                     'kategori_pelajaran' => $this->request->getPost('kategori_pelajaran'),
-                    'gambar' => $fileName
+                    'gambar' => $fileName2,
+                    'file' => $fileName
                 ]);
 
                 return redirect()->back()->with('success', ' Data Berhasil Disimpan');
@@ -274,13 +283,13 @@ class Admin extends BaseController
 
     public function hapuspelajaran($id)
     {
-        $supplier = new PelajaranModel();
+        $pelajaran = new PelajaranModel();
 
-        $supplier->delete($id);
+        $pelajaran->delete($id);
 
         session()->setFlashdata('success', 'Data berhasil dihapus');
 
-        return redirect()->to('/admin/tambahpelajaran');
+        return redirect()->to('/admin/listpelajaran');
     }
 
     

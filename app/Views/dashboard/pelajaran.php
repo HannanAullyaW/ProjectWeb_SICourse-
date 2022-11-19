@@ -73,7 +73,7 @@
 									
 								<div class="text p-4">
 								<span class="price">Selengkapnya</span>
-									<h3><a href="#"><?= $pljrn->judul_pelajaran; ?></a></h3>
+									<h3><a href="<?= base_url('filepelajaran/'.$pljrn->file); ?>"><?= $pljrn->judul_pelajaran; ?></a></h3>
 									<p class="advisor">Pengajar <span><?= $pljrn->nama_pengajar; ?></span></p>
 									<ul class="d-flex justify-content-between">
 										<li><span class="flaticon-shower"></span><?= $pljrn->kategori_pelajaran; ?></li>

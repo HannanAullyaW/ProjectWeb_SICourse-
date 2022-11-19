@@ -31,6 +31,10 @@ class Pelajaran extends Migration
                 'type'       => 'VARCHAR',
                 'constraint' => '150',
             ],
+            'file' => [
+                'type'       => 'VARCHAR',
+                'constraint' => '150',
+            ],
         ]);
         $this->forge->addKey('id_pelajaran', true);
         $this->forge->createTable('pelajaran');
