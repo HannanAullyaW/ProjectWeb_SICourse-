@@ -23,10 +23,7 @@
                 <div class="form-group">
                     <label for="">Pilih file gambar</label>
                     <div class="custom-file">
-                        <input type="file" name="gambar" id="gambar" class="form-control" <?= $validation && isset($validation['gambar']) ? 'is-invalid' : '' ?>>
-                        <?php if ($validation && isset($validation['gambar'])) : ?>
-                            <div class="invalid-feedback"><?= $validation['gambar']; ?></div>
-                        <?php endif; ?>
+                        <input type="file" name="gambar" id="gambar" class="form-control" >
                     </div>
                 </div>
                 <button class="btn btn-success" type="submit">SIMPAN DATA</button>

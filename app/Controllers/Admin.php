@@ -98,6 +98,8 @@ class Admin extends BaseController
 
     public function uploadPengajar()
     {
+
+
         if ($this->request->getMethod() === 'post') {
             $rules =
                 [
@@ -236,15 +238,18 @@ class Admin extends BaseController
     public function updatepengajar($id)
     {
         $edit = new PengajarModel();
+        $gambar = $this->request->getFile('gambar');
+        $fileName = time() . $gambar->getClientName();
 
         $edit->update($id, [
             'nama_pengajar' => $this->request->getVar('nama_pengajar'),
             'bidang_pengajar' => $this->request->getVar('bidang_pengajar'),
             'info_pengajar' => $this->request->getVar('info_pengajar'),
-            'gambar' => $this->request->getVar('gambar'),
+            'gambar' => $fileName,
         ]);
+        $gambar->move(ROOTPATH . 'public/uploads',$fileName);
         session()->setFlashdata('success', 'Data berhasil diubah');
-        return redirect()->to('/admin/tambahpengajar');
+        return redirect()->to('/admin/listpengajar');
     }
 
     public function editpelajaran($id = null)
