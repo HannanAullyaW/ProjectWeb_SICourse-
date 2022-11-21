@@ -37,38 +37,34 @@
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
+                                        <?php if (session()->getFlashdata('error')) : ?>
+                                            <div class="alert alert-danger alert-dismissible show fade">
+                                                <div class="alert-body">
+                                                    <button class="close" data-dismiss="alert">x</button>
+                                                    <b>Error !</b>
+                                                    <?= session()->getFlashdata('error'); ?>
+                                                </div>
+                                            </div>
+                                        <?php endif; ?>
                                         <h1 class="h4 text-gray-900 mb-4">Admin Register</h1>
                                     </div>
-                                    <form class="user">
+                                    <form method="post" action="/admin/regisProcess" class="signup-form">
                                         <div class="form-group">
-                                            <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                                            <label class="label" for="username">Username</label>
+                                            <input type="text" class="form-control" name="username" id="username">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                                            <label class="label" for="password">Kata Sandi</label>
+                                            <input type="password" class="form-control" name="password" id="password" required autofocus>
                                         </div>
-                                        <div class="form-group">
-                                            <div class="custom-control custom-checkbox small">
-                                                <input type="checkbox" class="custom-control-input" id="customCheck">
-                                                <label class="custom-control-label" for="customCheck">Ingat Saya?</label>
-                                            </div>
-                                        </div>
-                                        <a href="index.html" class="btn btn-primary btn-user btn-block">
-                                            Login
-                                        </a>
-                                        <hr>
-                                        <a href="index.html" class="btn btn-google btn-user btn-block">
-                                            <i class="fab fa-google fa-fw"></i> Daftar dengan akun Google
-                                        </a>
-                                        <a href="index.html" class="btn btn-facebook btn-user btn-block">
-                                            <i class="fab fa-facebook-f fa-fw"></i> Daftar dengan akun Facebook
-                                        </a>
+                                        <button type="submit" class="btn btn-primary submit">Daftar<span class="fa fa-paper-plane"></span></button>
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="forgot-password.html">Sudah Buat Akun?</a>
+                                        <a class="small">Sudah Buat Akun?</a>
                                     </div>
                                     <div class="text-center">
-                                        <a class="small" href="Login.php">Masuk!</a>
+                                        <a class="small" href="admin">Masuk!</a>
                                     </div>
                                 </div>
                             </div>

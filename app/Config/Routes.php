@@ -58,9 +58,11 @@ $routes->get('/dashboard/pengajar', 'DashboardController::pengajar');
 $routes->get('/dashboard/beranda', 'DashboardController::beranda');
 
 
-$routes->get('/admin', 'Admin::login');
-$routes->get('/admin/login', 'Admin::login');
-$routes->get('/admin', 'Admin::register');
+$routes->get('/admin', 'LoginAdmin::masuk');
+$routes->get('/admin/register', 'LoginAdmin::register');
+$routes->post('/admin/prosesMasuk', 'LoginAdmin::prosesMasuk');
+$routes->post('/admin/regisProcess', 'LoginAdmin::regisProcess');
+$routes->get('/admin/logout', 'LoginAdmin::logout');
 $routes->get('/admin/dashboard', 'Admin::dashboard');
 $routes->get('/admin/listpengajar', 'Admin::listpengajar');
 $routes->get('/admin/listpelajaran', 'Admin::listpelajaran');
