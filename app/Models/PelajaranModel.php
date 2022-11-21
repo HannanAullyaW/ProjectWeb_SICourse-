@@ -9,7 +9,7 @@ class PelajaranModel extends Model
     protected $table = "pelajaran";
     protected $primaryKey = "id_pelajaran";
     protected $useAutoIncrement = true;
-    protected $allowedFields = ["judul_pelajaran","nama_pengajar", "kategori_pelajaran","gambar"];
+    protected $allowedFields = ["judul_pelajaran","nama_pengajar", "kategori_pelajaran","gambar","file"];
     protected $useTimestamps = false;
     
 }

@@ -274,14 +274,24 @@ class Admin extends BaseController
     {
         $edit = new PelajaranModel();
 
+        $file = $this->request->getFile('file');
+        $gambar = $this->request->getFile('gambar');
+        $fileName = time() . $file->getClientName();
+        $fileName2 = time() . $gambar->getClientName();
+
+
         $edit->update($id, [
             'judul_pelajaran' => $this->request->getVar('judul_pelajaran'),
             'nama_pengajar' => $this->request->getVar('nama_pengajar'),
             'kategori_pelajaran' => $this->request->getVar('kategori_pelajaran'),
-            'gambar' => $this->request->getVar('gambar'),
+            'gambar' => $fileName2,
+            'file' => $fileName
         ]);
+
+        $file->move(ROOTPATH . 'public/filepelajaran/',$fileName);
+        $gambar->move(ROOTPATH . 'public/uploads',$fileName2);
         session()->setFlashdata('success', 'Data berhasil diubah');
-        return redirect()->to('/admin/tambahpelajaran');
+        return redirect()->to('/admin/listpelajaran');
     }
 
    

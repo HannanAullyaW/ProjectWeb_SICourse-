@@ -16,53 +16,9 @@
 <section class="ftco-section bg-light">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 sidebar">
+			<div class="col-lg-2 sidebar">
 				<div class="sidebar-box bg-white ftco-animate">
-					<form action="#" class="search-form">
-						<div class="form-group">
-							<span class="icon fa fa-search"></span>
-							<input type="text" class="form-control" placeholder="Search...">
-						</div>
-					</form>
 				</div>
-
-				<div class="sidebar-box bg-white p-4 ftco-animate">
-					<h3 class="heading-sidebar">Kategori Kursus</h3>
-					<form action="#" class="browse-form">
-						<label for="option-category-1"><input type="checkbox" id="option-category-1" name="vehicle" value="" checked>TWK (Tes Wawasan Kebangsaan)</label><br>
-						<label for="option-category-2"><input type="checkbox" id="option-category-2" name="vehicle" value=""> TIU (Tes Intelegensi Umum)</label><br>
-						<label for="option-category-3"><input type="checkbox" id="option-category-3" name="vehicle" value=""> TKP (Tes Karakteristik Pribadi)</label><br>
-					</form>
-				</div>
-
-				<div class="sidebar-box bg-white p-4 ftco-animate">
-					<h3 class="heading-sidebar">Pengajar</h3>
-					<form action="#" class="browse-form">
-						<label for="option-instructor-1"><input type="checkbox" id="option-instructor-1" name="vehicle" value="" checked> Ronald Jackson</label><br>
-						<label for="option-instructor-2"><input type="checkbox" id="option-instructor-2" name="vehicle" value=""> John Dee</label><br>
-						<label for="option-instructor-3"><input type="checkbox" id="option-instructor-3" name="vehicle" value=""> Nathan Messy</label><br>
-					</form>
-				</div>
-
-				<div class="sidebar-box bg-white p-4 ftco-animate">
-					<h3 class="heading-sidebar">Tipe Kursus</h3>
-					<form action="#" class="browse-form">
-						<label for="option-course-type-1"><input type="checkbox" id="option-course-type-1" name="vehicle" value="" checked>Kumpulan Soal</label><br>
-						<label for="option-course-type-2"><input type="checkbox" id="option-course-type-2" name="vehicle" value=""> Kumpulan Materi</label><br>
-						<label for="option-course-type-3"><input type="checkbox" id="option-course-type-3" name="vehicle" value=""> Video</label><br>
-					</form>
-				</div>
-
-				<!-- <div class="sidebar-box bg-white p-4 ftco-animate">
-						<h3 class="heading-sidebar">Software</h3>
-						<form action="#" class="browse-form">
-							<label for="option-software-1"><input type="checkbox" id="option-software-1" name="vehicle" value="" checked> Adobe Photoshop</label><br>
-							<label for="option-software-2"><input type="checkbox" id="option-software-2" name="vehicle" value=""> Adobe Illustrator</label><br>
-							<label for="option-software-3"><input type="checkbox" id="option-software-3" name="vehicle" value=""> Sketch</label><br>
-							<label for="option-software-4"><input type="checkbox" id="option-software-4" name="vehicle" value=""> WordPress</label><br>
-							<label for="option-software-5"><input type="checkbox" id="option-software-5" name="vehicle" value=""> HTML &amp; CSS</label><br>
-						</form>
-					</div> -->
 			</div>
 			<div class="col-lg-9">
 				<div class="row">
@@ -84,21 +40,6 @@
 					<?php endforeach ?>
 					<div class="col-md-6 d-flex align-items-stretch ftco-animate">
 
-					</div>
-					<div class="row mt-5">
-						<div class="col">
-							<div class="block-27">
-								<ul>
-									<li><a href="#">&lt;</a></li>
-									<li class="active"><span>1</span></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">5</a></li>
-									<li><a href="#">&gt;</a></li>
-								</ul>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
