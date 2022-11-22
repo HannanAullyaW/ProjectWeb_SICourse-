@@ -60,13 +60,14 @@
                                         <div class="form-group">
                                             <label class="label" for="password">Kata Sandi</label>
                                             <input type="password" class="form-control" name="password" id="password" required autofocus>
+                                            <hr>
                                             <button type="submit" class="btn btn-primary submit">Masuk</span></button>
                                             <hr>
                                     </form>
                                     <hr>
-                                    <div class="text-center">
+                                    <!-- <div class="text-center">
                                         <a class="small" href="">Lupa Katasandi?</a>
-                                    </div>
+                                    </div> -->
                                     <div class="text-center">
                                         <a class="small" href="/admin/register">Buat Akun!</a>
                                     </div>

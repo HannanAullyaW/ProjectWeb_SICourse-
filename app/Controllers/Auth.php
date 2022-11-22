@@ -36,12 +36,12 @@ class Auth extends BaseController
                 $params = ['id' => $users->id];
                 session()->set($params);
 
-                $sessLogin = [
-                    'isLogin' => true,
-                    'username' => $post['username'],
-                    'role' => $post['role']
-                ];
-                $this->session->set($sessLogin);
+                // $sessLogin = [
+                //     'isLogin' => true,
+                //     'username' => $post['username'],
+                //     'role' => $post['role']
+                // ];
+                // $this->session->set($sessLogin);
 
                 return redirect()->to(site_url('dashboard/beranda'));
             } else {

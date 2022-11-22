@@ -25,11 +25,11 @@
 					<?php foreach ($pelajaran as $pljrn) : ?>
 						<div class="col-md-6 d-flex align-items-stretch ftco-animate">
 							<div class="project-wrap">
-								<img src="<?= base_url('uploads/'.$pljrn->gambar); ?>" alt="gambar" style="width: 398px; height:300px">
-									
+								<img href="<?= base_url('filepelajaran/' . $pljrn->file); ?>" src="<?= base_url('uploads/' . $pljrn->gambar); ?>" alt="gambar" style="width: 398px; height:300px">
+
 								<div class="text p-4">
-								<span class="price">Selengkapnya</span>
-									<h3><a href="<?= base_url('filepelajaran/'.$pljrn->file); ?>"><?= $pljrn->judul_pelajaran; ?></a></h3>
+									<span class="price">Selengkapnya</span>
+									<h3><a href="<?= base_url('filepelajaran/' . $pljrn->file); ?>"><?= $pljrn->judul_pelajaran; ?></a></h3>
 									<p class="advisor">Pengajar <span><?= $pljrn->nama_pengajar; ?></span></p>
 									<ul class="d-flex justify-content-between">
 										<li><span class="flaticon-shower"></span><?= $pljrn->kategori_pelajaran; ?></li>
