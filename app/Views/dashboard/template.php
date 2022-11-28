@@ -41,8 +41,8 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="/dashboard/beranda" class="nav-link">Beranda</a></li>
-                    <li class="nav-item"><a href="/dashboard/pelajaran" class="nav-link">Pelajaran</a></li>
-                    <li class="nav-item"><a href="/dashboard/pengajar" class="nav-link">Pengajar</a></li>
+                    <li class="nav-item active"><a href="/dashboard/pelajaran" class="nav-link">Pelajaran</a></li>
+                    <li class="nav-item active"><a href="/dashboard/pengajar" class="nav-link">Pengajar</a></li>
                     <li class="nav-item" class="ml-4"><a href="/logout" class="nav-link btn btn-warning">Keluar</a></li>
                 </ul>
             </div>
@@ -64,16 +64,16 @@
                         <h2 class="ftco-heading-2">Tentang Kami</h2>
                         <p>Pahami materi lebih mudah bersama kami, raih mimpi lewat prestasi!</p>
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="https://twitter.com/Javaboi7"><span class="fa fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100009444702586"><span class="fa fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/rendy.lp_/"><span class="fa fa-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-md pt-3 text-center">
                     <div class="ftco-footer-widget">
-                        <h2 class="ftco-heading-2 "><a href="/pelajaran">Pelajaran</a></h2>
+                        <h2 class="ftco-heading-2 "><a href="/dashboard/pelajaran">Pelajaran</a></h2>
                         <ul class="list-unstyled">
                             <li><a href="#" class="py-2 d-block">TWK</a></li>
                             <li><a href="#" class="py-2 d-block">TIU</a></li>
@@ -86,9 +86,9 @@
                         <h2 class="ftco-heading-2"><a href="/hubungikami">Info lanjut</a></h2>
                         <div class="block-23">
                             <ul>
-                                <li><span class="icon fa fa-map-marker"></span><span class="text">Wisma Istiqomah, Bumi Manti 4</span></li>
+                                <li><a href="https://goo.gl/maps/BDLiwaz15hFPaAWQA"><span class="icon fa fa-map-marker"></span><span class="text">Wisma Istiqomah, Bumi Manti 4</span></a></li>
                                 <li><a href="https://wa.me/+6288269638116"><span class="icon fa fa-phone"></span><span class="text">+62-882-6963-8116</span></a></li>
-                                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">satriasapta48@gmail.com</span></a></li>
+                                <li><a href="https://satriasapta48@gmail.com"><span class="icon fa fa-paper-plane"></span><span class="text">satriasapta48@gmail.com</span></a></li>
                             </ul>
                         </div>
                     </div>

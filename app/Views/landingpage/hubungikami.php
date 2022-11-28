@@ -69,7 +69,8 @@
                                         <span class="fa fa-map-marker"></span>
                                     </div>
                                     <div class="text pl-3">
-                                        <p>Wisma Istiqomah, Bumi Manti 4</p>
+                                        <p><a href="https://goo.gl/maps/BDLiwaz15hFPaAWQA">Wisma Istiqomah, Bumi Manti 4</a> </p>
+
                                     </div>
                                 </div>
                                 <div class="dbox w-100 d-flex align-items-center">
@@ -77,7 +78,7 @@
                                         <span class="fa fa-phone"></span>
                                     </div>
                                     <div class="text pl-3">
-                                        <p><a href="wa.me/+6288269638116">+62-882-6963-8116</a></p>
+                                        <p><a href="https://wa.me/+6288269638116">+62-882-6963-8116</a></p>
                                     </div>
                                 </div>
                                 <div class="dbox w-100 d-flex align-items-center">
@@ -85,7 +86,7 @@
                                         <span class="fa fa-paper-plane"></span>
                                     </div>
                                     <div class="text pl-3">
-                                        <p><a href="mailto:satriasapta48@gmail.com">satriasapta48@gmail.com</a></p>
+                                        <p><a href="https://satriasapta48@gmail.com">satriasapta48@gmail.com</a></p>
                                     </div>
                                 </div>
                             </div>
