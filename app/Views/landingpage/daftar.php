@@ -2,7 +2,8 @@
 <?= $this->section('content'); ?>
 
 <div class="hero-wrap js-fullheight" style="background-image: url('assets/templateweb/images/bannerutama.jpg');">
-    <div class="overlay"></div>
+    <div class="overlay">
+    </div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">
             <div class="col-md-5 mt-5 order-md-last">
